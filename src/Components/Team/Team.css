@@ -1,0 +1,636 @@
+@font-face {
+    font-family: bodyfont;
+    src: url(../Fonts/antebas\ medium.otf);
+}
+@font-face {
+  font-family: myfont;
+  src: url(../Fonts/Cristola\ Display.otf);
+}
+
+.Team{
+    text-align: start;
+    margin-bottom: 50px;
+}
+
+  .custom-navbars .navbar-logo a,
+.custom-navbars .navbar-links a,
+.custom-navbars .navbar-toggle i {
+  color: #000000; /* Change to your desired color */
+}
+/* ................................................ Team CSS ...................................................  */
+  .team-container{
+    width: 100%;
+    padding: 100px;
+    /* height: 150vh; */
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    z-index: -5;
+  }
+  .team-head-div{
+    z-index: 10;
+     position: relative;
+  }
+  .team-land-head {
+    font-size: 7em;
+    font-family: myfont;
+    color: black;
+    position: relative; 
+    z-index: 2;
+  }
+  
+  .span-head {
+    margin-left: 450px;
+    color: black;
+    position: relative; 
+    z-index: 2; 
+  }
+  
+  .team-logo {
+    width: 200px;
+    margin-bottom: 50px;
+    margin-left: -120px;
+    position: absolute; 
+    /* inset: 0; */
+          z-index: -2;/* Ensure it can be positioned relative to .team-land-head */
+  
+  }
+  .sec-team-container2{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid red; */
+  }
+  .Team{
+    text-align: start;
+    margin-bottom: 50px;
+  }
+  .team-second-col-2 h2{
+   
+    margin-top: 100px;
+    font-family: bodyfont;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .team-second-contain{
+    width: 95%;
+    /* padding: 20px; */
+    /* border-bottom: 2px solid rgb(0, 0, 0); */
+    margin: 0 auto;
+  }
+  .team-quote{
+    margin-top: 100px;
+    font-size: 18px;
+  }
+  .second-container-row{
+    border-bottom: 2px solid black;
+  }
+  .founderimg{
+    width: 75%;
+  }
+  .team-second-col-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+  }
+  .team-second-col-2{
+    /* border: 1px solid black; */
+  }
+  .blueprint1{
+    width: 80%;
+  }
+  .second-container-inner-row{
+   margin-top: 160px;
+   margin-left: 20px;
+  }
+  .team-second-container-in-col1{
+    /* border: 1px solid rgb(153, 0, 0); */
+  
+    text-align: start;
+  }
+  .team-second-container-in-col1 p{
+    text-align: justify;
+    font-size: 16px;
+    color: rgb(78, 78, 78);
+    font-family: bodyfont;
+  }
+  .team-second-container-in-col1 h5{
+    font-size: 20px;
+    font-family: bodyfont;
+    font-weight: 400;
+  }
+  .team-second-container-in-col2{
+    /* border: 1px solid red; */
+    text-align: start;
+    padding-left: 50px;
+    font-size: bodyfont;
+  }
+  
+  .team-second-container-in-col2 h5{
+    font-family: bodyfont;
+    font-weight: 400;
+    font-size:22px;
+  }
+  .emp-container{
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(255, 255, 255);
+  }
+  .emp-head{
+    font-size: 5em;
+    font-family: myfont;
+    text-align: center;
+  }
+  .emp-container p{
+    padding: 10px 35px;
+    font-family: bodyfont;
+  }
+  .emp-container img{
+    width: 100%;
+    padding: 0;
+  }
+  /* .................................................. Media Query .............................................  */
+  @media only screen and (min-width: 2000px) and (max-width: 2560px) {
+    .logo {
+      width: 214px;
+      height: 150px;
+      position: absolute;
+      inset: 0;
+      left: 48.5%;
+      top: 6%;
+    }
+    
+  
+    .sub-1 h1 {
+      font-size: 90px;
+    }
+    .h1-1 {
+      margin-right: 20%;
+    }
+    
+    .h1-2 {
+      margin-left: 15%;
+    }
+    .heading{
+      font-family: body;
+      font-size: 45px;
+    }
+    p{
+      font-size: 23px;
+    }
+    .numbers{
+      font-size: 40px;
+    }
+    .bt-sec {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+    .proj-2 h4{
+      font-size: 40px;
+    }
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    p {
+      font-size: 14px;
+    }
+    .heading {
+      font-size: 28px;
+    }
+    .img-2 {
+      height: 80vh;
+      width: 100%;
+    }
+    .sub-1 h1 {
+      font-size: 48px;
+    }
+    .logo {
+      width: 130px;
+      height: 97px;
+      top: 4%;
+    }
+    .numbers {
+      font-size: 25px;
+    }
+    .gp img {
+      width: 20px;
+      height: 20px;
+      margin-bottom: 6px;
+      transform: rotate(48deg);
+    }
+    .gp h4 {
+      font-size: 17px;
+    }
+    .team-second-container-in-col1 h5{
+      font-size: 18px;
+  }
+  .team-second-container-in-col1 p{
+      font-size: 14px;
+  }
+  .team-second-container-in-col2 h5{
+      font-size: 20px;
+  }
+  .team-second-container-in-col2 h6{
+      font-size: 14px;
+  }
+  
+  }
+  @media only screen and (min-width: 1100px) and (max-width: 1200px) {
+    .hide {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    .landing-img {
+      padding: 10px 11px;
+    }
+    .heading {
+      font-size: 25px;
+    }
+    .hide {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 821px) {
+    p {
+      font-size: 12px;
+    }
+    .heading {
+      font-size: 22px;
+    }
+    .sub-1 h1 {
+      font-size: 35px;
+    }
+    .logo {
+      width: 110px;
+      height: 77px;
+      top: 0%;
+    }
+    .gp h4 {
+      font-size: 18px;
+    }
+    .gp img {
+      width: 16px;
+      height: 16px;
+    }
+    .landing-img {
+      padding: 10px 0px;
+    }
+    .proj-1{
+      display: none;
+    }
+    .proj-2{
+      display: block;
+      display: flex;
+    }
+    .numbers{
+      font-size: 23px;
+    }
+    .team-second-col-1{
+      border-right: 0px;
+      border-bottom: 2px solid black;
+  }
+  .team-second-container-in-col1 h5{
+       font-size: 17px;
+  }
+  .team-second-container-in-col1 p{
+       font-size: 14px;
+  }
+  .team-second-container-in-col2 h5{
+    font-size: 17px;
+  }
+  .team-second-container-in-col2 h6{
+    font-size: 15px;
+  }
+  .team-second-container-in-col2{
+      padding-left: 20px;
+  }
+  .team-second-col-2 h2{
+      font-size: 18px;
+  }
+  .team-land-head{
+    font-size: 5em;
+  
+  }
+  .team-logo{
+    width: 100px;
+    margin-left: -40px;
+    margin-bottom: 20px;
+  }
+  .span-head{
+    margin-left: 80px;
+  }
+  .emp-head{
+    font-size: 3em;
+  }
+  }
+  @media only screen and (max-width: 768px) {
+    p {
+      font-size: 12px;
+    }
+    .heading {
+      font-size: 22px;
+    }
+    .sub-1 h1 {
+      font-size: 35px;
+    }
+    .logo {
+      width: 110px;
+      height: 77px;
+      top: 0%;
+    }
+    .gp h4 {
+      font-size: 18px;
+    }
+    .gp img {
+      width: 16px;
+      height: 16px;
+    }
+    .landing-img {
+      padding: 10px 0px;
+    }
+    .proj-1{
+      display: none;
+    }
+    .proj-2{
+      display: block;
+      display: flex;
+    }
+    .numbers{
+      font-size: 23px;
+    }
+    .team-second-col-1{
+      text-align: center;
+      border-right: none;
+      border-bottom: 2px solid black;
+  }
+  .team-founder-col{
+    text-align: center;
+  }
+  .foundersname{
+    text-align: center;
+  }
+  .team-second-container-in-col1 h5{
+       font-size: 17px;
+  }
+  .team-second-container-in-col1 p{
+       font-size: 14px;
+  }
+  .team-second-container-in-col2 h5{
+    font-size: 17px;
+  }
+  .team-second-container-in-col2 h6{
+    font-size: 15px;
+  }
+  .team-second-container-in-col2{
+      padding-left: 20px;
+  }
+  .team-second-col-2 h2{
+      font-size: 18px;
+  }
+  .team-land-head{
+    font-size: 5em;
+  
+  }
+  .team-logo{
+    width: 100px;
+    margin-left: -40px;
+    margin-bottom: 20px;
+  }
+  .span-head{
+    margin-left: 80px;
+  }
+  .emp-head{
+    font-size: 3em;
+  }
+  }
+  
+@media screen and (max-width:500px) {
+  .sec-team-container{
+      padding: 0px;
+  }
+  .second-container-inner-row{
+      margin-top: 30px;
+      margin-left: 0;
+  }
+  .team-second-col-1 h5{
+     
+      font-size: 17px;
+  }
+  .team-second-contain{
+      padding: 10px;
+  }
+  .team-second-container-in-col2{
+      padding-left: 0;
+  }
+  .team-second-container-in-col1{
+      padding-left: 0;
+  }
+  /* .team-second-col-2 h5{
+      text-align: center;
+      
+  } */
+   .second-container-inner-row{
+    padding-left: 0;
+   }
+   
+
+.team-second-container-in-col2{
+    padding-left: 0;
+}
+}
+
+  @media only screen and (max-width: 480px) {
+    .team-container{
+      z-index: 0;
+    }
+    .sub-1 h1 {
+      font-size: 22.5px;
+    }
+    .team-land-head{
+      z-index: 0;
+    }
+    .logo {
+      width: 80px;
+      height: 57px;
+      top: 0%;
+    }
+   
+    .img-2 {
+      height: 43vh;
+      width: 100%;
+    }
+    .heading {
+      font-size: 21.5px;
+    }
+    p {
+      font-size: 14.5px;
+    }
+    .numbers{
+      font-size: 20px;
+    }
+    .gp h4{
+      font-size: 14px;
+    }
+    .proj-1{
+      display: none;
+    }
+    .proj-2{
+      display: block;
+      display: flex;
+    }
+    .gp{
+      margin-top: 10px;
+    }
+    .num{
+      padding-top:38%;
+    }
+    .sec-team-container{
+      padding: 0px;
+  }
+  .second-container-inner-row{
+      margin-top: 30px;
+      margin-left: 0;
+  }
+  .team-second-col-1 h5{
+      font-size: 17px;
+  }
+  .team-second-contain{
+      padding: 10px;
+  }
+  .team-second-container-in-col2{
+      padding-left: 0;
+  }
+  .team-second-container-in-col1{
+      padding-left: 0;
+  }
+  .team-land-head{
+    font-size: 3em;
+  }
+  .team-logo{
+    width: 60px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+  }
+  .emp-head{
+    font-size: 1.5em;
+  }
+  .emp-container p{
+    font-size: 13px;
+  }
+  /* .team-second-col-2 h5{
+      text-align: center;
+      
+  } */
+  .team-second-col-2 h2{
+         padding-left: 0px;
+         padding-right: 0px;
+         font-size: 15px;
+   }
+  }
+  @media only screen and (max-width: 430px) {
+    .sub-1 h1 {
+      font-size: 22.5px;
+    }
+    .logo {
+      width: 80px;
+      height: 57px;
+      top: 0%;
+    }
+    
+    .img-2 {
+      height: 43vh;
+      width: 100%;
+    }
+    .heading {
+      font-size: 21.5px;
+    }
+    p {
+      font-size: 14.5px;
+    }
+    .numbers{
+      font-size: 20px;
+    }
+    .gp h4{
+      font-size: 14px;
+    }
+    .proj-1{
+      display: none;
+    }
+    .proj-2{
+      display: block;
+      display: flex;
+    }
+    .gp{
+      margin-top: 10px;
+    }
+    .num{
+      padding-top:38%;
+    }
+    .sec-team-container{
+      padding: 0px;
+  }
+  .second-container-inner-row{
+      margin-top: 30px;
+      margin-left: 0;
+  }
+  .team-second-col-1 h5{
+      font-size: 17px;
+  }
+  .team-second-contain{
+      padding: 10px;
+  }
+  .team-second-container-in-col2{
+      padding-left: 0;
+  }
+  .team-second-container-in-col1{
+      padding-left: 0;
+  }
+  .team-land-head{
+    font-size: 3em;
+  }
+  .team-logo{
+    width: 60px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+  }
+  .emp-head{
+    font-size: 1.5em;
+  }
+  .emp-container p{
+    font-size: 13px;
+  }
+  /* .team-second-col-2 h5{
+      text-align: center;
+      
+  } */
+  }
+  @media only screen and (max-width: 375px) {
+  
+    .logo {
+      width: 70px;
+      height: 47px;
+      top: 5%;
+    }
+    .sub-1 h1 {
+      font-size: 20px;
+    }
+    .img-2 {
+      height: 44vh;
+      width: 100%;
+    }
+    p{
+      font-size: 12px;
+    }
+    .num{
+      padding-top: 42%;
+    }
+  }
+    /* width: 95%;
+    padding: 20px;
+    
+    margin: 0 auto; */
+
+

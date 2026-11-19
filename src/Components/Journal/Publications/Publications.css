@@ -1,0 +1,460 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+.publications-main-container{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.inner-container-publications{
+    width: 85%;
+     
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.publications-first-row{
+    /* border: 1px solid rgb(25, 0, 255); */
+}
+.inner-first-col-publication{
+  border-right: 2px solid black;
+}
+.inner-second-col-publication{
+   
+}
+.publication1-img{
+    width: 92%;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+    
+}
+.publication11-link{
+margin-left: 5px;
+font-size: 14px;
+color: rgb(95, 95, 95);
+}
+.publication2-link{
+margin-left: 5px;
+padding-bottom: 10px;
+font-size: 14px;
+color: rgb(95, 95, 95);
+}
+.publication3-link{
+  
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+}
+.publication4-link{
+  
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+}
+.publication2-img-div{
+    text-align: center;
+   
+}
+.publication2-img{
+   width: 90%;
+   margin-top: 10px;
+}
+.publication3-img{
+   width: 60%;
+  margin-top: 10px;
+}
+.publication4-img{
+   width: 60%;
+   
+   margin-top: 10px;
+}
+.publication1-para-div{
+    padding-right: 70px;
+    margin-top: 10px;
+}
+.publication3-img-div{
+    text-align: center;
+}
+.publication4-img-div{
+    text-align: center;
+}
+.inner-first-col-publication p{
+    /* font-family: bodyfont; */
+    margin-top: 20px;
+}
+.inner-second-col-publication p{
+    margin-top: 20px;
+}
+.publication2-col-inner-row{
+    border-top: 2px solid black;
+}
+.publicaton2-col-inner-col1{
+    border-right: 2px solid black;
+}
+.publicaton2-col-inner-col1 h3{
+      font-size: 12px;
+}
+.publicaton2-col-inner-col1 p{
+    margin-left: 0;
+}
+.publicaton2-col-inner-col2 h3{
+      font-size: 12px;
+}
+.publicaton2-col-inner-col2 p{
+    margin-left: 0;
+}
+@media only screen and (max-width:2560px){
+    .publication1-link-div{
+       margin-top: 115px;
+    }
+    .publication3-link-div{
+          margin-top: 47px;
+    }
+    
+   .tamil-language .publication1-link-div{
+       margin-top: 155px;
+    }
+   .tamil-language .publication3-link-div{
+          margin-top: 87px;
+    }
+
+ }
+@media only screen and (max-width:2500px){
+    .publication1-link-div{
+       margin-top: 120px;
+    }
+    .publication3-link-div{
+          margin-top: 20px;
+    }
+    .tamil-language .publication1-link-div{
+        margin-top: 190px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 87px;
+     }
+ }
+ @media only screen and (max-width:2400px){
+    .publication1-link-div{
+        margin-top: 125px;
+     }
+     .publication3-link-div{
+           margin-top: 20px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 228px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 120px;
+     }
+ }
+ 
+ @media only screen and (max-width:2300px){
+    .publication1-link-div{
+        margin-top: 130px;
+     }
+     .publication3-link-div{
+           margin-top: 20px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 268px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 120px;
+     }
+ }
+ @media only screen and (max-width:2240px){
+    .publication1-link-div{
+        margin-top: 138px;
+     }
+     .publication3-link-div{
+           margin-top: 20px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 268px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 120px;
+     }
+ }
+ @media only screen and (max-width:2150px){
+    .publication1-link-div{
+        margin-top: 175px;
+     }
+     .publication3-link-div{
+           margin-top: 20px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 275px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 120px;
+     }
+ }
+ @media only screen and (max-width:2020px){
+    .publication1-link-div{
+        margin-top: 180px;
+     }
+     .publication3-link-div{
+           margin-top: 50px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 280px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 120px;
+     }
+ }
+ @media only screen and (max-width:1920px){
+    .publication1-link-div{
+        margin-top: 180px;
+     }
+     .publication3-link-div{
+           margin-top: 45px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 320px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 152px;
+     }
+ }
+ @media only screen and (max-width:1850px){
+    .publication1-link-div{
+        margin-top: 185px;
+     }
+     .publication3-link-div{
+           margin-top: 15px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 320px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 122px;
+     }
+ }
+ @media only screen and (max-width:1800px){
+    .publication1-link-div{
+        margin-top: 80px;
+     }
+     .publication3-link-div{
+           margin-top: 15px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 145px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 62px;
+     }
+ }
+ @media only screen and (max-width:1728px){
+    .publication1-link-div{
+        margin-top: 82px;
+     }
+     .publication3-link-div{
+           margin-top: 20px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 127px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 62px;
+     }
+ }
+ @media only screen and (max-width:1632px){
+    .publication1-link-div{
+        margin-top: 105px;
+     }
+     .publication3-link-div{
+           margin-top: 35px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 155px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 60px;
+     }
+ }
+ @media only screen and (max-width:1584px){
+    .publication1-link-div{
+        margin-top: 110px;
+     }
+     .publication3-link-div{
+           margin-top: 35px;
+     }
+ }
+ @media only screen and (max-width:1536px){
+     
+    .publication1-link-div{
+        margin-top: 115px;
+     }
+     .publication3-link-div{
+           margin-top: 20px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 200px;
+     }
+     .tamil-language .publication3-link-div{
+           margin-top: 80px;
+     }
+ }
+ @media only screen and (max-width:1440px){
+    .publication1-link-div{
+        margin-top: 120px;
+     }
+     .publication3-link-div{
+           margin-top: 20px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 225px;
+     }
+    
+ }
+ @media only screen and (max-width:1392px){
+    .publication1-link-div{
+        margin-top: 162px;
+     }
+     .publication3-link-div{
+           margin-top: 38px;
+     }
+ }
+ @media only screen and (max-width:1366px){
+    .publication1-link-div{
+        margin-top: 122px;
+     }
+     .publication3-link-div{
+           margin-top: 18px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 230px;
+     }
+ }
+
+ @media only screen and (max-width:1248px){
+    .publication1-link-div{
+        margin-top: 147px;
+     }
+     .publication3-link-div{
+           margin-top: 37px;
+     }
+ }
+ @media only screen and (max-width:1152px){
+    .publication1-link-div{
+        margin-top: 155px;
+     }
+     .publication3-link-div{
+           margin-top: 18px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 280px;
+     }
+     .tamil-language .publication3-link-div{
+        margin-top: 100px;
+  }
+ }
+ @media only screen and (max-width:1024px){
+    .publication1-link-div{
+        margin-top: 182px;
+     }
+     .publication3-link-div{
+           margin-top: 20px;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 334px;
+     }
+     .tamil-language .publication3-link-div{
+        margin-top: 80px;
+  }
+ }
+ @media only screen and (max-width:950px){
+    .publication1-link-div{
+        margin-top: 0px;
+     }
+     .publication3-link-div{
+           margin-top: 0px;
+     }
+     .inner-second-col-publication{
+        border-top: 2px solid black;
+     }
+     .tamil-language .publication1-link-div{
+        margin-top: 0px;
+     }
+     .tamil-language .publication3-link-div{
+        margin-top: 65px;
+  }
+ }
+@media only screen and (max-width:800px){
+    .publication1-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .publication2-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .inner-first-col-publication p{
+        margin-left: 0;
+        font-size: 15x;
+    }
+    .inner-second-col-publication p{
+        margin-left: 0;
+        font-size: 15x;
+    }
+    .publicaton2-col-inner-col1 h3{
+        font-size: 8px;
+    }
+    .publicaton2-col-inner-col2 h3{
+        font-size: 8px;
+    }
+    .tamil-language .publication1-link-div{
+        margin-top: 0px;
+     }
+     .tamil-language .publication3-link-div{
+        margin-top: 53px;
+  }
+
+}
+@media only screen and (max-width:500px){
+    .publication1-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .publication2-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .inner-first-col-publication p{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .inner-second-col-publication p{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .publicaton2-col-inner-col1 h3{
+        font-size: 12px;
+    }
+    .publicaton2-col-inner-col2 h3{
+        font-size: 12px;
+    }
+    .inner-first-col-publication h3{
+          font-size: 12px;
+    }
+    .inner-second-col-publication h3{
+          font-size: 12px;
+    }
+    .inner-first-col-publication p{
+          font-size: 12px;
+    }
+    .inner-second-col-publication p{
+          font-size: 12px;
+    }
+    .inner-first-col-publication{
+        border-bottom: 2px solid black;
+    }
+    .publicaton2-col-inner-col1{
+        border-bottom: 2px solid black;
+    }
+}

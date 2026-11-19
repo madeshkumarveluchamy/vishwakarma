@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* color: black; */
+}
+@font-face{
+    font-family: bodyfont;
+    src: url(../Fonts/antebas\ medium.otf);
+  }
+ 
+.service-page{
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url(../images/H-77.webp);
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+}
+.service-first-row{
+    width: 79%;
+    margin-left: 180px;
+    padding-top: 100px;
+}
+
+
+.fir-col h1{
+    color: white;
+   text-align: center;
+   
+}
+.thi-col h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.sec-col img {
+    padding-top: 30px;
+    width: 30px;
+}
+.custom-navbars .navbar-logo a,
+.custom-navbars .navbar-links a,
+.custom-navbars .navbar-toggle i {
+  color: #000000;
+}
+.service-para-div{
+    /* float: right; */
+    width: 96%;
+    margin-top: 400px;
+    /* padding: 20px; */
+    /* border: 2px solid red; */
+    text-align: right;
+    /* margin-right: 200px; */
+    font-size: 16px;
+    font-family: bodyfont;
+    /* letter-spacing: 2px; */
+}
+
+/* .......................... Service Second Container ........................ */
+.sec-service-container{
+   border-bottom: 2px solid black;
+}
+.wallimg{
+    width: 80%;
+}
+.service-second-col-1{
+    border-right: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 60px 0;
+}
+
+.blueprint1{
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 65px;
+}
+.second-container-rows{
+  /* border-bottom: 2px solid black; */
+}
+.second-container-inner-rows{
+   margin-top: 220px;
+   margin-left: 65px;
+   
+}
+.service-second-container-in-col1{
+  font-family: bodyfont;
+    text-align: start;
+}
+.service-second-container-in-col2{
+    text-align: start;
+    font-size: bodyfont;
+}
+
+.service-second-container-in-col2 h5{
+    font-family: bodyfont;
+    margin-bottom: 20px;
+    
+}
+.service-second-container-in-col1 h5{
+    font-family: bodyfont;
+    margin-bottom: 30px;
+}
+.service-second-container-in-col1  p{
+    font-family: bodyfont;
+    font-weight:lighter;
+    font-size: 14px;
+}
+
+.service-second-container-in-col2 h6{
+      font-size: 13px;
+      font-family: bodyfont;
+      color: #313131;
+}
+/* ............................. Service Third Container .......................  */
+.service-third-container{
+    display: flex;
+    /* background-image: url(../images/Desktop\ -\ 75.png);
+    background-size: cover;
+    background-position: center; */
+  
+}
+.service-third-container .blueprint-1{
+    width: 32.5%;
+    margin-top: 14px;
+    /* margin-left: 14px; */
+    border-radius: 5px ;
+    border: 1px solid black;
+    /* border-right: 1px solid black;
+    border-bottom: 1px solid black; */
+}
+.service-third-container .blueprint-2{
+    width: 32.5%;
+    margin-top: 14px;
+    margin-left: 14px;
+    border-radius: 5px ;
+    border: 1px solid black;
+  
+}
+.service-third-container .blueprint-3{
+    width: 32.5%;
+    margin-top: 14px;
+    margin-left: 14px;
+    border-radius: 5px ;
+    border: 1px solid black;
+    /* border-left: 1px solid black;
+    border-bottom: 1px solid black; */
+}
+.blueprint-contain{
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.blueprint-row{
+    border: 1px solid red;
+}
+
+.blueprint{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* ........................................... Media Query ......................  */
+@media only screen and (max-width:2560px){
+    .service-para-div{
+        font-size: 25px;
+        margin-top: 200px;
+    }
+    .service-second-container-in-col1 h5{
+        font-size: 30px;
+    }
+    .service-second-container-in-col1 p{
+        font-size: 22px;
+    }
+    .service-second-container-in-col2 h5{
+         font-size: 30px;
+    }
+    .service-second-container-in-col2 h6{
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:2000px){
+  .fir-col h1{
+    color: white;
+   text-align: center;
+   font-size: 40px;
+   
+}
+.thi-col h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+.sec-col img {
+    padding-top: 30px;
+    width: 35px;
+}
+    .service-para-div{
+        font-size: 23px;
+        margin-top: 250px;
+        font-weight: 600;
+    }
+    .service-second-container-in-col2 h6{
+        font-size: 20px;
+    }
+
+}
+@media only screen and (max-width:1600px){
+    .service-para-div{
+        font-size: 20px;
+        margin-top: 200px;
+    }
+    .fir-col h1{
+      color: white;
+     text-align: center;
+     font-size: 30px;
+     
+  }
+  .thi-col h1{
+      text-align: center;
+      color: rgb(0, 0, 0);
+      font-size: 30px;
+  }
+  .sec-col img {
+      padding-top: 30px;
+      width: 25px;
+  }
+    .service-second-container-in-col1 p{
+        font-size: 17px;
+    }
+    .service-second-container-in-col2 h6{
+        font-size: 18px;
+    }
+    .service-second-container-in-col1 h5{
+        font-size: 25px;
+    }
+    .service-second-container-in-col2 h5{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:1440px){
+   .service-first-row{
+    margin-left: 170px;
+   }
+   .service-para-div{
+    font-size: 16px;
+    margin-top: 200px;
+}
+  .service-second-container-in-col1 p{
+    font-size: 15px;
+   }
+  .service-second-container-in-col2 h6{
+    font-size: 15px;
+   }
+  .service-second-container-in-col1 h5{
+    font-size: 22px;
+   }
+  .service-second-container-in-col2 h5{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width:1024px){
+    .service-first-row{
+        margin-left: 130px;
+       }
+       .fir-col h1{
+        font-size: 22px;
+       }
+       .sec-col img{
+        width: 30px;
+        margin-top: -15px;
+       }
+       .thi-col h1{
+        font-size: 22px;
+       }
+       .service-para-div{
+        font-size: 13px;
+        margin-top: 300px;
+       }
+    .second-container-inner-row{
+        margin-top: 70px;
+        margin-left: 8px;
+    }
+      .service-second-container-in-col1 p{
+        font-size: 13px;
+       }
+      .service-second-container-in-col2 h6{
+        font-size: 13px;
+       }
+      .service-second-container-in-col1 h5{
+        font-size: 18px;
+       }
+      .service-second-container-in-col2 h5{
+        font-size: 18px;
+      }
+}
+@media screen and (max-width:768px) {
+    .service-first-row{
+        margin-left: 110px;
+       }
+       .service-para-div{
+        font-size: 0.65em;
+        margin-top: 300px;
+       }
+        .service-second-col-1{
+        /* border: 1px solid black; */
+        border-bottom: 2px solid black;
+        padding-bottom: 15px;
+        padding-left: 100px;
+        justify-content: center;
+        align-items: center;
+        border-right: 0px;
+    }
+    .service-second-col-1{
+        padding: 20px 0;
+    }
+    
+}
+@media only screen and (max-width:500px){
+  .service-page{
+    height: 70vh;
+  }
+  .service-first-row{
+    margin-left: 20px;
+    padding-top: 100px;
+   }
+   .fir-col h1{
+    font-size: 16px;
+   }
+   .sec-col img{
+    width: 20px;
+    margin-top: -15px;
+   }
+   .thi-col h1{
+    font-size: 16px;
+   }
+   .service-para-div{
+    font-size: 0.55em;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 10px;
+   }
+   .service-second-container-in-col1 p{
+    font-size: 13px;
+    text-align: center;
+   }
+  .service-second-container-in-col2 h6{
+    font-size: 13px;
+    text-align: center;
+   }
+  .service-second-container-in-col1 h5{
+    font-size: 16px;
+    text-align: center;
+   }
+  .service-second-container-in-col2 h5{
+    font-size: 16px;
+    text-align: center;
+  }
+  .wallimg{
+    width: 50%;
+  }
+  .blueprint1{
+    width: 300px;
+    /* margin-left: 20px; */
+  }
+  .service-third-container{
+    flex-direction: column;
+  }
+  .service-third-container .blueprint-1{
+    width: 100%;
+  }
+  .service-third-container .blueprint-2{
+    width: 100%;
+    margin-left: 0;
+  }
+  .service-third-container .blueprint-3{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width:400px){
+    .service-page{
+        height: 70vh;
+      }
+      .service-first-row{
+        margin-left: 20px;
+        padding-top: 100px;
+       }
+       .fir-col h1{
+        font-size: 16px;
+       }
+       .sec-col img{
+        width: 20px;
+        margin-top: -15px;
+       }
+       .thi-col h1{
+        font-size: 16px;
+       }
+       .service-para-div{
+        font-size: 0.7em;
+        margin-top: 100px;
+        text-align: center;
+        margin-left: 10px;
+       }
+       .service-second-container-in-col1 p{
+        font-size: 13px;
+        text-align: center;
+       }
+      .service-second-container-in-col2 h6{
+        font-size: 13px;
+        text-align: center;
+       }
+      .service-second-container-in-col1 h5{
+        font-size: 16px;
+        text-align: center;
+       }
+      .service-second-container-in-col2 h5{
+        font-size: 16px;
+        text-align: center;
+      }
+      .wallimg{
+        width: 50%;
+      }
+      .blueprint1{
+        width: 300px;
+        margin-left: 20px;
+      }
+      .service-third-container{
+        flex-direction: column;
+      }
+      .service-third-container .blueprint-1{
+        width: 100%;
+      }
+      .service-third-container .blueprint-2{
+        width: 100%;
+        margin-left: 0;
+      }
+      .service-third-container .blueprint-3{
+        width: 100%;
+        margin-left: 0;
+      }
+}
+@media only screen and (max-width:320px){
+    .service-page{
+        height: 70vh;
+      }
+      .service-first-row{
+        margin-left: 20px;
+        padding-top: 50px;
+       }
+       .fir-col h1{
+        font-size: 12px;
+       }
+       .sec-col img{
+        width: 20px;
+        margin-top: -30px;
+       }
+       .thi-col h1{
+        font-size: 12px;
+       }
+       .service-para-div{
+        font-size: 0.6em;
+        margin-top: 100px;
+        text-align: center;
+        margin-left: 10px;
+       }
+       .service-second-container-in-col1 p{
+        font-size: 12px;
+        text-align: center;
+       }
+      .service-second-container-in-col2 h6{
+        font-size: 12px;
+        text-align: center;
+       }
+      .service-second-container-in-col1 h5{
+        font-size: 14px;
+        text-align: center;
+       }
+      .service-second-container-in-col2 h5{
+        font-size: 14px;
+        text-align: center;
+      }
+      .wallimg{
+        width: 50%;
+      }
+      .blueprint1{
+        width: 250px;
+        margin-left: 20px;
+      }
+      .service-third-container{
+        flex-direction: column;
+      }
+      .service-third-container .blueprint-1{
+        width: 100%;
+      }
+      .service-third-container .blueprint-2{
+        width: 100%;
+        margin-left: 0;
+      }
+      .service-third-container .blueprint-3{
+        width: 100%;
+        margin-left: 0;
+      }
+}

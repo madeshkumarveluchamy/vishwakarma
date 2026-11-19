@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: myfont;
+    src: url(../../../Fonts/Cristola\ Display.ttf);
+}
+.inner-container-interiorexterior{
+    width: 99%;
+}
+.inner-container-Foundersthought2{
+    margin: 0 auto;
+    width: 99%;
+}
+.Foundersthought-container2-row{
+    padding: 0;
+}
+.Foundersthought-container2-col2{
+    display: flex;
+    align-items: center; 
+  
+}
+.Foundersthought-container2-col2 h1{
+    text-align: center;
+    font-family: myfont;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0;
+   margin-top: 15px;
+}
+.sub-cont-2{
+    display: flex;
+    align-items: center;
+}
+.inner-head{
+    font-family: myfont;
+}
+.Foundersthought-container2-col2 img{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inner-container-Foundersthought2{
+    border-bottom: 2px solid black;
+}
+.inner-container-Foundersthought3{
+    margin: 0 auto;
+    width: 99%;
+}
+.Foundersthought-container3-col1{
+    /* border: 2px solid black; */
+}
+.Foundersthought-container3-col1 img{
+    margin-top: 10px;
+    width: 100%;
+}
+.Foundersthought-container3-col2 img{
+    width: 80%;
+ 
+}
+.Foundersthought-container3-col2 p{
+         text-align: justify;
+}
+.journal-para{
+    font-family: bodyfont2;
+}
+/* ........................................................... Media Query ......................................  */
+@media only screen and (max-width:2400px){
+    .Foundersthought-container2-col2 h1
+    {
+        font-size: 100px;
+    }
+    .tamil-language .Foundersthought-container2-col2 h1
+    {
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width:1600px){
+    .Foundersthought-container2-col2 h1
+    {
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width:821px){
+    .Foundersthought-container2-col2 img{
+        width: 80%;
+    }
+    .Foundersthought-container2-col2 h1{
+        text-align: start;
+    }
+}
+@media only screen and (max-width:500px){
+    .Foundersthought-container2-col1{
+        font-size: 20px;
+    }
+    .Foundersthought-container2-col2 img{
+        width: 80%;
+    }
+    .Foundersthought-container3-col2 p{
+        font-size: 14px;
+    }
+}

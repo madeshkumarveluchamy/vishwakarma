@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.inner-container-Materiality2{
+    margin: 0 auto;
+    width: 99%;
+}
+@font-face {
+    font-family: myfont;
+    src: url(../../../Fonts/Cristola\ Display.ttf);
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(../../../Fonts/DMSans-Medium.ttf);
+}
+.Materiality-container2-col1{
+    font-family: myfont;
+    font-size: 50px;
+    font-weight: 500;
+}
+.Materiality-container2-col2 img{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.inner-container-Materiality2{
+    border-bottom: 2px solid black;
+}
+.inner-container-Materiality3{
+    margin: 0 auto;
+    width: 99%;
+}
+.Materiality-container3-col1{
+    /* border: 2px solid black; */
+}
+.Materiality-container3-col1 img{
+    margin-top: 10px;
+    width: 100%;
+}
+.Materiality-container3-col2 img{
+    width: 80%;
+    
+ 
+}
+.Materiality-container3-col2 p{
+         text-align: justify;
+         font-family: bodyfont2;
+}
+.thoughts4-img3{
+    margin-top: 7px;
+    width: 100%;
+}
+.Materiality-container2-col2{
+    text-align: end;
+}
+.journal-para{
+    font-family: bodyfont2;
+}
+/* ........................................................... Media Query ......................................  */
+@media only screen and (max-width:2560px){
+    .Materiality-container2-col1{
+        font-family: myfont;
+        font-size: 110px;
+        font-weight: 500;
+        padding-top: 10px;
+    }
+    .tamil-language .Materiality-container2-col1{
+        font-size: 60px;
+        padding-top: 35px;
+    }
+}
+@media only screen and (max-width:1600px){
+    .Materiality-container2-col1{
+        font-family: myfont;
+        font-size: 80px;
+        font-weight: 500;
+        padding-top: 10px;
+    }
+    .tamil-language .Materiality-container2-col1{
+        font-size: 50px;
+        padding-top: 35px;
+    }
+}
+@media only screen and (max-width:821px){
+    .Materiality-container2-col2 img{
+        width: 80%;
+    }
+    .Materiality-container2-col1{
+        font-size: 55px;
+    }
+    .Materiality-container2-col2 img{
+        width: 95%;
+    }
+}
+@media only screen and (max-width:500px){
+    .Materiality-container2-col1{
+        font-size: 25px;
+    }
+    .Materiality-container2-col2 img{
+        width: 100%;
+    }
+    .Materiality-container3-col2 p{
+        font-size: 14px;
+    }
+}

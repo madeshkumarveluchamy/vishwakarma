@@ -1,0 +1,393 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+.Recognitions-main-container{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.inner-container-Recognitions{
+    width: 85%;
+     
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Recognitions-first-row{
+    /* border: 1px solid rgb(25, 0, 255); */
+}
+.inner-first-col-Recognitions{
+  border-right: 2px solid black;
+}
+.inner-second-col-Recognitions{
+   
+}
+.Recognitions1-img{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.Recognitions2-img{
+   width: 100%;
+   margin-top: 10px;
+   
+}
+.Recognitions3-img{
+   width: 100%;
+   margin-top: 10px;
+}
+.Recognitions4-img{
+   width: 100%;
+   margin-top: 10px;
+}
+.inner-first-col-Recognitions p{
+    margin-top: 20px;
+}
+.inner-second-col-Recognitions p{
+    margin-top: 20px;
+}
+.Recognitions2-col-inner-row{
+    border-top: 2px solid black;
+}
+.Recognitions2-col-inner-col1{
+    border-right: 2px solid black;
+}
+.Recognitions2-col-inner-col1 h3{
+      font-size: 12px;
+}
+.Recognitions2-col-inner-col1 p{
+   margin-top: 20px;
+}
+.Recognitions2-col-inner-col2 h3{
+      font-size: 12px;
+}
+.Recognitions2-col-inner-col2 p{
+    margin-left: 0;
+}
+.Recognitions1-link{
+   
+
+ font-size: 14px;
+color: rgb(95, 95, 95);
+}
+.Recognitions2-link{
+    font-size: 14px;
+color: rgb(95, 95, 95);
+}
+.Recognitions3-link{
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+}
+.Recognitions4-link{
+    font-size: 14px;
+    color: rgb(95, 95, 95); 
+}
+.recognitions1-para-div{
+    padding-right: 70px;
+}
+@media only screen and (max-width:2560px){
+   .avinashilingam-link-div{
+         margin-top: 195px;
+   }
+   .recognition3-link-div{
+         margin-top: 45px;
+   }
+  .tamil-language .avinashilingam-link-div{
+         margin-top: 300px;
+   }
+  .tamil-language .recognition3-link-div{
+         margin-top: 85px;
+   }
+}
+
+@media only screen and (max-width:2400px){
+    .avinashilingam-link-div{
+        margin-top: 195px;
+  }
+  .recognition3-link-div{
+        margin-top: 15px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 368px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 120px;
+}
+}
+
+@media only screen and (max-width:2350px){
+    .avinashilingam-link-div{
+        margin-top: 195px;
+  }
+  .recognition3-link-div{
+        margin-top: 15px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 336px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 84px;
+}
+}
+
+@media only screen and (max-width:2300px){
+    .avinashilingam-link-div{
+        margin-top: 195px;
+  }
+  .recognition3-link-div{
+        margin-top: 15px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 336px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 53px;
+}
+}
+
+@media only screen and (max-width:2240px){
+    .avinashilingam-link-div{
+        margin-top: 195px;
+  }
+  .recognition3-link-div{
+        margin-top: 47px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 335px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 50px;
+}
+}
+@media only screen and (max-width:2150px){
+    .avinashilingam-link-div{
+        margin-top: 228px;
+  }
+  .recognition3-link-div{
+        margin-top: 47px;
+  }
+}
+@media only screen and (max-width:2020px){
+    .avinashilingam-link-div{
+        margin-top: 229px;
+  }
+  .recognition3-link-div{
+        margin-top: 47px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 368px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 85px;
+}
+}
+
+@media only screen and (max-width:1920px){
+    .avinashilingam-link-div{
+        margin-top: 229px;
+  }
+  .recognition3-link-div{
+        margin-top: 47px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 405px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 85px;
+}
+}
+
+
+@media only screen and (max-width:1800px){
+    .avinashilingam-link-div{
+        margin-top: 160px;
+  }
+  .recognition3-link-div{
+        margin-top: 40px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 200px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 37px;
+}
+}
+
+@media only screen and (max-width:1632px){
+    .avinashilingam-link-div{
+        margin-top: 160px;
+  }
+  .recognition3-link-div{
+        margin-top: 40px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 240px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 56px;
+}
+}
+
+@media only screen and (max-width:1584px){
+    .avinashilingam-link-div{
+        margin-top: 160px;
+  }
+  .recognition3-link-div{
+        margin-top: 17px;
+  }
+}
+
+@media only screen and (max-width:1392px){
+    .avinashilingam-link-div{
+        margin-top: 160px;
+  }
+  .recognition3-link-div{
+        margin-top: 37px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 270px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 40px;
+}
+}
+@media only screen and (max-width:1366px){
+    .avinashilingam-link-div{
+        margin-top: 160px;
+  }
+  .recognition3-link-div{
+        margin-top: 37px;
+  }
+}
+
+@media only screen and (max-width:1296px){
+    .avinashilingam-link-div{
+        margin-top: 160px;
+  }
+  .recognition3-link-div{
+        margin-top: 37px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 285px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 56px;
+}
+}
+
+@media only screen and (max-width:1152px){
+    .avinashilingam-link-div{
+        margin-top: 203px;
+  }
+  .recognition3-link-div{
+        margin-top: 58px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 310px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 56px;
+}
+}
+@media only screen and (max-width:1024px){
+    .avinashilingam-link-div{
+        margin-top: 203px;
+  }
+  .recognition3-link-div{
+        margin-top: 38px;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 335px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 40px;
+}
+}
+@media only screen and (max-width:950px){
+    .avinashilingam-link-div{
+        margin-top: 0px;
+  }
+  .recognition3-link-div{
+        margin-top: 0px;
+  }
+  .inner-second-col-Recognitions{
+    border-top: 2px solid black;
+  }
+  .tamil-language .avinashilingam-link-div{
+    margin-top: 0px;
+}
+.tamil-language .recognition3-link-div{
+    margin-top: 40px;
+}
+}
+@media only screen and (max-width:800px){
+    .Recognitions1-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .Recognitions2-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .inner-first-col-Recognitions p{
+        margin-left: 0;
+        font-size: 15x;
+    }
+    .inner-second-col-Recognitions p{
+        margin-left: 0;
+        font-size: 15x;
+    }
+    .Recognitions2-col-inner-col1 h3{
+        font-size: 8px;
+    }
+    .Recognitions2-col-inner-col2 h3{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width:500px){
+    .Recognitions1-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .Recognitions2-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .inner-first-col-Recognitions p{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .inner-second-col-Recognitions p{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .Recognitions2-col-inner-col1 h3{
+        font-size: 12px;
+    }
+    .Recognitions2-col-inner-col2 h3{
+        font-size: 12px;
+    }
+    .inner-first-col-Recognitions h3{
+          font-size: 12px;
+    }
+    .inner-second-col-Recognitions h3{
+          font-size: 12px;
+    }
+    .inner-first-col-Recognitions p{
+          font-size: 12px;
+    }
+    .inner-second-col-Recognitions p{
+          font-size: 12px;
+    }
+    .inner-first-col-Recognitions{
+        border-bottom: 2px solid black;
+    }
+    .Recognitions2-col-inner-col1{
+        border-bottom: 2px solid black;
+    }
+}

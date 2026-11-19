@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: myfont;
+    src: url(../../../Fonts/Cristola\ Display.ttf);
+}
+@font-face {
+    font-family: bodyfont2;
+    src: url(../../../Fonts/DMSans-Medium.ttf);
+}
+.inner-container-Artisanaldesign2{
+    margin: 0 auto;
+    width: 99%;
+}
+.Handsketch-container2-col1{
+
+    font-size: 50px;
+    font-weight: 500;
+}
+.Handsketch-container2-col2{
+    text-align: end;
+}
+.Handsketch-container2-col2 img{
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.inner-container-Handsketch2{
+    border-bottom: 2px solid black;
+}
+.inner-container-Artisanaldesign3{
+    margin: 0 auto;
+    width: 99%;
+}
+.Handsketch-container3-col1{
+    /* border: 2px solid black; */
+}
+.Handsketch-container3-col1 img{
+    margin-top: 10px;
+    width: 100%;
+}
+.Handsketch-container3-col2 img{
+    width: 80%;
+ 
+}
+.Handsketch-container3-col2 p{
+         text-align: justify;
+}
+.Handsketch-container3-col1{
+    text-align: end;
+}
+.inner-head-avinashi{
+    word-spacing: 10px;
+}
+.journal-para{
+    font-family: bodyfont2;
+}
+/* ........................................................... Media Query ......................................  */
+@media only screen and (max-width:2560px){
+    .Handsketch-container2-col1{
+        font-family: myfont;
+        font-size: 80px;
+        margin-top: auto;
+    }
+    .tamil-language .Handsketch-container2-col1{
+        font-size: 45px;
+        margin-top: auto;
+
+    }
+}
+@media only screen and (max-width:1600px){
+    .Handsketch-container2-col1{
+        font-family: myfont;
+        font-size: 70px;
+        margin-top: auto;
+       /* word-spacing: 10px; */
+    }
+}
+@media only screen and (max-width:821px){
+    .Handsketch-container2-col2 img{
+        width: 80%;
+    }
+    .Handsketch-container2-col1{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:500px){
+    .Handsketch-container2-col1{
+        font-size: 25px;
+    }
+    .Handsketch-container2-col2 img{
+        width: 80%;
+    }
+    .Handsketch-container3-col2 p{
+        font-size: 14px;
+    }
+}

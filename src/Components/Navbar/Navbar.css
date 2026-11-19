@@ -1,0 +1,140 @@
+@font-face {
+  font-family: myfont;
+  src: url(../Fonts/Cristola\ Display.ttf);
+}
+
+@font-face {
+  font-family: navbodyfont;
+  src: url(../Fonts/antebas\ medium.otf);
+}
+
+.navbar {
+  color: white;
+  padding-top: 40px;
+  padding: 20px 20px;
+  z-index: 5;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-logo {
+  font-size: 2em;
+  color: rgb(252, 252, 252);
+  font-family: myfont;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-links-container {
+  display: flex;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.navbar-links a {
+  font-size: 15px;
+  font-weight: 300; /* Light font weight */
+  color: rgb(255, 255, 255); /* Navbar links text color */
+  text-decoration: none; /* Remove underline */
+  padding: 0 15px;
+  font-family: navbodyfont;
+  position: relative; /* Required for the ::after pseudo-element */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navbar-links a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px; /* Adjust to control the spacing below the text */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Thickness of the bottom line */
+  background-color: #0a0a0a; /* Color of the bottom line */
+  transition: width 0.3s ease; /* Smooth transition for the line */
+}
+
+.navbar-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px; /* Adjust to control the spacing below the text */
+  left: 0;
+  width: 0;
+  height: 2px; /* Thickness of the bottom line */
+  background-color: #0f0f0f; /* Color of the bottom line */
+  transition: width 0.3s ease; /* Smooth transition for the line */
+}
+
+.navbar-links a.active {
+  font-weight: bold; /* Bold font for active links */
+  color: #f0f0f0; /* Optionally change the color for active links */
+  
+}
+
+.navbar-links a:hover::after {
+  width: 100%; /* Expand the line on hover */
+}
+
+.navbar-toggle {
+  display: none; /* Initially hidden, show in media query for responsiveness */
+}
+
+.navbar-toggle i {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: rgb(255, 255, 255); /* Navbar toggle icon color */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1024px) {
+  .navbar-logo {
+    font-size: 20px;
+  }
+  .navbar-links a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar-links-container {
+    display: none; /* Hide links container initially */
+  }
+  .navbar-links-container.active {
+    display: block; /* Show links container when active */
+    flex-direction: column; /* Stack links vertically */
+    position: absolute; /* Absolute positioning to overlay */
+    top: 60px; /* Adjust based on navbar height */
+    right: 0;
+    background-color: #919191;
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-links {
+    flex-direction: column; /* Stack links vertically */
+  }
+  .navbar-links a {
+    padding: 15px 0;
+    display: block; /* Ensure links are displayed as block elements */
+  }
+  .navbar-toggle {
+    display: block; /* Show toggle button on smaller screens */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-logo a {
+    font-size: 12px;
+  }
+}

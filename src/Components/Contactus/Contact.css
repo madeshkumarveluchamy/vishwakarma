@@ -1,0 +1,384 @@
+@font-face {
+    font-family: myfont;
+    src: url(../Fonts/Cristola\ Display.otf);
+  }
+  .contact-custom-navbar .navbar-logo a{
+    display: none;
+  }
+.contact-custom-navbar .navbar-links a,
+.contact-custom-navbar .navbar-toggle i {
+  color: #000000; /* Change to your desired color */
+}
+  .main-head {
+    font-size: 45px;
+    font-family: myfont;
+    margin-left: 8.5%;
+    margin-bottom: 0;
+    margin-top: 1%;
+    padding: 0.5%;
+    font-weight: 400;
+  }
+  .box {
+    height: 87vh;
+  }
+  .contactus-main-container{
+    width: 100%;
+    border-bottom: 2px solid black;
+  }
+  .Heading-1 {
+    padding: 14px;
+    padding-left: 30%;
+  }
+  .Heading-2 {
+    padding: 14px;
+    padding-left: 2%;
+    color: white;
+  }
+  .map {
+    width: 100%;
+    height: 400px;
+    position: absolute ;
+    left: 50%;
+    top: 28%;
+    /* border: black 1px solid; */
+    padding: 10px;
+  }
+  .box-1 {
+    position: relative;
+  }
+  .map{
+    width: 100%;
+    object-fit: cover;
+  }
+  .circle {
+    width: 520px;
+    height: 520px;
+    border-radius: 400px;
+    margin-top: 3%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 3%;
+    justify-items: center;
+  }
+  .cont-text {
+    margin-top: 30%;
+    margin-left: 46%;
+  }
+  .cont-text h4 {
+    font-size: 15px;
+  }
+  .pno{
+    margin-top: 10%;
+  }
+  .find-us {
+    margin-top: 20px;
+  }
+  .imgee {
+    display: flex;
+    gap: 5px;
+  }
+  span {
+    color: rgb(78, 78, 78);
+    margin-left: 8px;
+  }
+  .imgee a {
+    height: 26px;
+    width: 26px;
+    text-decoration: none;
+    color: black;
+  }
+  .contact-info {
+    background-image: url("./Contact-images/WhatsApp\ Image\ 2024-06-13\ at\ 12.25.00.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+  }
+  @media only screen and (min-width: 1600px) and (max-width: 2560px) {
+    .rect{
+      width: 50%;
+    }
+    .circle {
+      width: 800px;
+      height: 800px;
+      margin-left: 80px;
+    }
+    .map {
+      width: 100%;
+      height: 500px;
+    }
+    .cont-text {
+      margin-top: 25%;
+      margin-left: 46%;
+    }
+    .cont-text h4{
+      font-size: 20px;
+      line-height: 40px;
+  }
+  .Heading-1,
+  .Heading-2 {
+    font-size: 29px;
+  }
+  .imgee img {
+      height: 28px;
+      width: 28px;
+    }
+  }
+  @media screen and (max-width:821px) {
+    .circle {
+      width: 400px;
+      height: 400px;
+    }
+    .map {
+      width: 100%;
+      height: 340px;
+      top: 10%;
+      left: 40%;
+    }
+    .cont-text {
+      margin-top: 35%;
+      margin-left: 37%;
+    }
+    .cont-text h4 {
+      font-size: 14px;
+    }
+    .imgee img {
+      height: 20px;
+      width: 20px;
+    }
+    .Heading-1,
+    .Heading-2 {
+      font-size: 18px;
+    }
+    .Heading-2 {
+      color: white;
+    }
+    .main-head {
+      font-size: 35px;
+    }
+    .box {
+      height: 90vh;
+    }
+  }
+   @media only screen and (max-width: 728px) {
+    .circle {
+      width: 400px;
+      height: 400px;
+    }
+    .map {
+      width: 100%;
+      height: 340px;
+      top: 21%;
+      left: 40%;
+    }
+    .cont-text {
+      margin-top: 35%;
+      margin-left: 37%;
+    }
+    .cont-text h4 {
+      font-size: 14px;
+    }
+    .imgee img {
+      height: 20px;
+      width: 20px;
+    }
+    .Heading-1,
+    .Heading-2 {
+      font-size: 18px;
+    }
+    .Heading-2 {
+      color: white;
+    }
+    .main-head {
+      font-size: 35px;
+    }
+    .box {
+      height: 90vh;
+    }
+  } 
+
+  @media only screen and (max-width: 576px) {
+    .box-1 {
+      height: 350px;
+    }
+    .map {
+      object-fit: cover;
+      width: 100%;
+      height: 250px;
+      left: 0%;
+      top: 15%;
+      padding: 7px;
+    }
+    .Heading-1 {
+      padding: 2%;
+    }
+   
+    .main-head {
+      font-size: 20px;
+      margin-left: 5%;
+      padding: 16px;
+    }
+    .Heading-2 {
+      color: white;
+    }
+    .Heading-1 {
+      padding-top: 5%;
+    }
+    .Heading-1,
+    .Heading-2 {
+      font-size: 15px;
+    }
+    .contact-info {
+      justify-items: center;
+    }
+    .box {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .circle {
+      width: 280px;
+      height: 280px;
+    }
+    .cont-text {
+      margin-top: 25%;
+      margin-left: 20%;
+      line-height: 20px;
+    }
+    .Heading-1 {
+      padding-left: 0px;
+    }
+    .find-us{
+      margin-top: 10px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .box-1 {
+      height: 350px;
+    }
+    .map {
+      object-fit: cover;
+      width: 100%;
+      height: 250px;
+      left: 0%;
+      top: 15%;
+      padding: 7px;
+    }
+    .Heading-1 {
+      padding: 2%;
+    }
+   
+    .main-head {
+      font-size: 20px;
+      margin-left: 5%;
+      padding: 16px;
+    }
+    .Heading-2 {
+      color: white;
+    }
+    .Heading-1 {
+      padding-top: 5%;
+    }
+    .Heading-1,
+    .Heading-2 {
+      font-size: 15px;
+    }
+    .contact-info {
+      justify-items: center;
+    }
+    .box {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .circle {
+      width: 280px;
+      height: 280px;
+    }
+    .cont-text {
+      margin-top: 25%;
+      margin-left: 20%;
+      line-height: 20px;
+    }
+    .Heading-1 {
+      padding-left: 0px;
+    }
+    .find-us{
+      margin-top: 10px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .box-1 {
+      height: 350px;
+    }
+    .map {
+      object-fit: cover;
+      width: 100%;
+      height: 250px;
+      left: 0%;
+      top: 15%;
+      padding: 7px;
+    }
+    .Heading-1 {
+      padding: 2%;
+    }
+    .main-head {
+      font-size: 20px;
+      margin-left: 5%;
+      padding: 16px;
+    }
+    .Heading-2 {
+      color: white;
+    }
+    .Heading-1 {
+      padding-top: 5%;
+    }
+    .Heading-1,
+    .Heading-2 {
+      font-size: 15px;
+    }
+    .contact-info {
+      justify-items: center;
+    }
+    .box {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .circle {
+      width: 280px;
+      height: 280px;
+    }
+    .cont-text {
+      margin-top: 25%;
+      margin-left: 20%;
+      line-height: 20px;
+    }
+    .Heading-1 {
+      padding-left: 0px;
+    }
+    .find-us{
+      margin-top: 10px;
+    }
+  }
+  @media only screen and (max-width: 410px) {
+    .map {
+      height: 250px;
+    }
+    .cont-text h4 {
+      font-size: 11px;
+    }
+    .imgee img {
+      height: 15px;
+      width: 15px;
+    }
+    .circle {
+      width: 250px;
+      height: 250px;
+    }
+    .cont-text {
+      margin-top: 25%;
+      margin-left: 24%;
+    }
+    .main-head {
+      font-size: 18px;
+    }
+    .find-us{
+      margin-top: 10px;
+    }
+  }

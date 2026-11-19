@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+p{
+    color: black;
+}
+.Thoughts-main-container{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.inner-container-Thoughts{
+    width: 85%;
+     
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Thoughts-first-row{
+    /* border: 1px solid rgb(25, 0, 255); */
+}
+
+.inner-second-col-Thoughts{
+     border-left: 2px solid black;
+}
+.Thoughts1-img{
+    width: 90%;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+}
+.thoughts2-div{
+    text-align: center;
+}
+.Thoughts2-img{
+   width: 99%;
+   margin-top: 10px;
+}
+.thoughts3-img-div{
+    text-align: center;
+}
+.Thoughts3-img{
+   width: 100%;
+   margin-top: 10px;
+  
+}
+.thougts4-img-div{
+    text-align: center;
+}
+.Thoughts4-img{
+   width: 100%;
+   margin-top: 10px;
+}
+.inner-first-col-Thoughts p{
+    margin-top: 25px;
+    margin-left: 5px;
+    
+    
+}
+.thoughts1-para{
+    padding-right: 100px;
+}
+.inner-second-col-Thoughts p{
+    /* margin-left: 5px; */
+    margin-top: 25px;
+}
+.Thoughts2-col-inner-row{
+    border-top: 2px solid black;
+}
+.Thoughts2-col-inner-col1{
+    border-right: 2px solid black;
+    
+}
+.Thoughts2-col-inner-col1 h3{
+      font-size: 12px;
+}
+.Thoughts2-col-inner-col1 p{
+    margin-left: 0;
+}
+.Thoughts2-col-inner-col2 h3{
+      font-size: 12px;
+}
+.Thoughts2-col-inner-col2 p{
+    margin-left: 0;
+}
+.Thoughts1-link{
+    font-size: 14px;
+    margin-left: 5px;
+padding-bottom: 10px;
+
+color: rgb(95, 95, 95);
+}
+.Thoughts2-link{
+    font-size: 14px;
+    
+padding-bottom: 10px;
+
+color: rgb(95, 95, 95);
+}
+.Thoughts3-link{
+    font-size: 14px;
+   
+    color: rgb(95, 95, 95); 
+}
+.Thoughts4-link{
+    font-size: 14px;
+    
+    color: rgb(95, 95, 95); 
+}
+.thoughts-readmore-link{
+    font-size:14px;
+}
+@media only screen and (max-width:2560px){
+    .founderthoght-link-div{
+        margin-top: 50px;
+    }
+   
+    
+}
+@media only screen and (max-width:2500px){
+    .founderthoght-link-div{
+        margin-top: 50px;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 85px;
+    }
+    .tamil-language .materiality-link-div{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width:2400px){
+    .founderthoght-link-div{
+        margin-top: 55px;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 125px;
+    }
+    .tamil-language .materiality-link-div{
+        margin-top: 17px;
+    }
+}
+@media only screen and (max-width:2350px){
+    .founderthoght-link-div{
+        margin-top: 58px;
+    }
+}
+@media only screen and (max-width:2300px){
+    .founderthoght-link-div{
+        margin-top: 60px;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 95px;
+    }
+}
+@media only screen and (max-width:2240px){
+    .founderthoght-link-div{
+        margin-top: 68px;
+    }
+    .materiality-link-div{
+        margin-top: 20px;
+    }
+   
+}
+@media only screen and (max-width:2150px){
+    .founderthoght-link-div{
+        margin-top: 104px;
+    }
+    .materiality-link-div{
+      margin-top: 50px;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 105px;
+    }
+}
+@media only screen and (max-width:2020px){
+    .founderthoght-link-div{
+        margin-top: 110px;
+    }
+    .materiality-link-div{
+      margin-top: 50px;
+    }
+   .tamil-language .materiality-link-div{
+      margin-top: 50px;
+    }
+}
+@media only screen and (max-width:1920px){
+    .founderthoght-link-div{
+        margin-top: 150px;
+    }
+    .materiality-link-div{
+      margin-top: 50px;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 115px;
+    }
+}
+@media only screen and (max-width:1850px){
+    .founderthoght-link-div{
+        margin-top: 120px;
+    }
+    .materiality-link-div{
+      margin-top: 18px;
+    }
+   .tamil-language .materiality-link-div{
+      margin-top: 12px;
+    }
+}
+@media only screen and (max-width:1800px){
+    .founderthoght-link-div{
+        margin-top: 63px;
+    }
+    .materiality-link-div{
+      margin-top: 40px;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width:1728px){
+    .founderthoght-link-div{
+        margin-top: 82px;
+    }
+    .materiality-link-div{
+      margin-top: 35px;
+    }
+}
+@media only screen and (max-width:1632px){
+    .founderthoght-link-div{
+        margin-top: 65px;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 90px;
+    }
+    .materiality-link-div{
+      margin-top: 15px;
+    }
+}
+@media only screen and (max-width:1584px){
+    .founderthoght-link-div{
+        margin-top: 70px;
+    }
+    .materiality-link-div{
+      margin-top: 15px;
+    }
+   .tamil-language .materiality-link-div{
+      margin-top: 37px;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 110px;
+    }
+}
+@media only screen and (max-width:1536px){
+    .founderthoght-link-div{
+        margin-top: 72px;
+    }
+    .materiality-link-div{
+      margin-top: 15px;
+    }
+    .tamil-language .materiality-link-div{
+        margin-top: 15px;
+      }
+      .tamil-language .founderthoght-link-div{
+          margin-top: 92px;
+      }
+}
+@media only screen and (max-width:1440px){
+    .founderthoght-link-div{
+        margin-top: 78px;
+    }
+    .materiality-link-div{
+      margin-top: 18px;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 120px;
+    }
+}
+@media only screen and (max-width:1392px){
+    .founderthoght-link-div{
+        margin-top: 100px;
+    }
+    .materiality-link-div{
+      margin-top: 37px;
+    }
+}
+@media only screen and (max-width:1366px){
+    .founderthoght-link-div{
+        margin-top: 102px;
+    }
+    .materiality-link-div{
+      margin-top: 37px;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 105px;
+    }
+}
+@media only screen and (max-width:1296px){
+    .founderthoght-link-div{
+        margin-top: 105px;
+    }
+    .materiality-link-div{
+      margin-top: 37px;
+    }
+   .tamil-language .materiality-link-div{
+      margin-top: 37px;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 125px;
+    }
+}
+@media only screen and (max-width:1248px){
+    .founderthoght-link-div{
+        margin-top: 88px;
+    }
+    .materiality-link-div{
+      margin-top: 37px;
+    }
+    
+}
+@media only screen and (max-width:1152px){
+    .founderthoght-link-div{
+        margin-top: 115px;
+    }
+    .materiality-link-div{
+      margin-top: 18px;
+    }
+    .tamil-language .materiality-link-div{
+        margin-top: 15px;
+      }
+}
+@media only screen and (max-width:1024px){
+    .founderthoght-link-div{
+        margin-top: 140px;
+    }
+    .materiality-link-div{
+      margin-top: 35px;
+    }
+    .tamil-language .materiality-link-div{
+        margin-top: 37px;
+      }
+      .tamil-language .founderthoght-link-div{
+        margin-top: 185px;
+    }
+}
+@media only screen and (max-width:950px){
+    .founderthoght-link-div{
+        margin-top: 0px;
+    }
+    .materiality-link-div{
+      margin-top: 0px;
+    }
+    .founder-img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .thoughts1-para{
+        padding-right: 0;
+    }
+    .inner-second-col-Thoughts{
+        border-top: 2px solid black;
+    }
+    .Thoughts2-col-inner-col2{
+        border-top: 2px solid black;
+    }
+    .tamil-language .founderthoght-link-div{
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width:800px){
+    .Thoughts1-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .Thoughts2-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .inner-first-col-Thoughts p{
+        margin-left: 0;
+        font-size: 15x;
+    }
+    .inner-second-col-Thoughts p{
+        margin-left: 0;
+        font-size: 15x;
+    }
+    .Thoughts2-col-inner-col1 h3{
+        font-size: 8px;
+    }
+    .Thoughts2-col-inner-col2 h3{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width:500px){
+    .Thoughts1-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .Thoughts2-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .inner-first-col-Thoughts p{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .inner-second-col-Thoughts p{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .Thoughts2-col-inner-col1 h3{
+        font-size: 12px;
+    }
+    .Thoughts2-col-inner-col2 h3{
+        font-size: 12px;
+    }
+    .inner-first-col-Thoughts h3{
+          font-size: 12px;
+    }
+    .inner-second-col-Thoughts h3{
+          font-size: 12px;
+    }
+    .inner-first-col-Thoughts p{
+          font-size: 12px;
+    }
+    .inner-second-col-Thoughts p{
+          font-size: 12px;
+    }
+    .inner-first-col-Thoughts{
+        border-bottom: 2px solid black;
+    }
+    .Thoughts2-col-inner-col1{
+        border-bottom: 2px solid black;
+    }
+}

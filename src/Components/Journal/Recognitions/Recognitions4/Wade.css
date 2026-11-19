@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(../../../Fonts/DMSans-Medium.ttf);
+}
+.inner-container-Wade2{
+    margin: 0 auto;
+    width: 99%;
+}
+.Wade-container2-col1{
+
+    font-size: 50px;
+    font-weight: 500;
+}
+.Wade-container2-col2 img{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.inner-container-Wade2{
+    border-bottom: 2px solid black;
+}
+.inner-container-Wade3{
+    margin: 0 auto;
+    width: 99%;
+}
+.Wade-container3-col1{
+    /* border: 2px solid black; */
+}
+.Wade-container3-col1 img{
+    margin-top: 15px;
+    width: 100%;
+}
+.wade-last-img{
+    margin-top: 26px;
+}
+.Wade-container3-col2 img{
+    width: 50%;
+ 
+}
+.Wade-container3-col2 p{
+         text-align: justify;
+         font-family: bodyfont2;
+}
+.Wade-container2-col2{
+    text-align: end;
+}
+.journal-para{
+    font-family: bodyfont2;
+}
+/* ........................................................... Media Query ......................................  */
+@media only screen and (max-width:2560px){
+    .Wade-container2-col1{
+        font-family: myfont;
+        font-size: 100px;
+       margin-top: auto;
+    }
+}
+@media only screen and (max-width:1600px){
+    .Wade-container2-col1{
+        font-family: myfont;
+        font-size: 85px;
+        margin-top: auto;
+    }
+}
+@media only screen and (max-width:821px){
+    .Wade-container2-col2 img{
+        width: 80%;
+    }
+    .Wade-container2-col1{
+        padding-bottom: 20px;
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width:500px){
+    .Wade-container2-col1{
+      
+        font-size: 30px;
+    }
+    .Wade-container2-col2 img{
+        width: 85%;
+    }
+    .Wade-container3-col2 p{
+        font-size: 14px;
+    }
+}

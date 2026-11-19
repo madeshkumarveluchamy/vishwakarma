@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(../../../Fonts/DMSans-Medium.ttf);
+}
+@font-face {
+    font-family: myfont;
+    src: url(../../../Fonts/Cristola\ Display.ttf);
+}
+.inner-container-Genusloci2{
+    margin: 0 auto;
+    width: 99%;
+}
+.Genusloci-container2-col1{
+    /* margin-top: 15px; */
+    /* font-family: myfont; */
+    font-size: 50px;
+    font-weight: 500;
+}
+.Genusloci-container2-col2{
+     text-align: end;
+}
+.Genusloci-container2-col2 img{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.inner-container-Genusloci2{
+    border-bottom: 2px solid black;
+}
+.inner-container-Genusloci3{
+    margin: 0 auto;
+    width: 99%;
+}
+.Genusloci-container3-col1{
+    /* border: 2px solid black; */
+}
+.Genusloci-container3-col1 img{
+    margin-top: 13.5px;
+    width: 100%;
+}
+.genusloci-last-img{
+
+
+}
+.Genusloci-container3-col2 img{
+    width: 80%;
+   
+ 
+}
+.Genusloci-container3-col2 p{
+         text-align: justify;
+         font-family: bodyfont2;
+}
+.journal-para{
+    font-family: bodyfont2;
+}
+/* ........................................................... Media Query ......................................  */
+@media only screen and (max-width:2560px){
+    .Genusloci-container2-col1{
+        font-family: myfont;
+        font-size: 140px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width:1600px){
+    .Genusloci-container2-col1{
+        font-family: myfont;
+        font-size: 100px;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width:821px){
+    .Genusloci-container2-col2 img{
+        width: 80%;
+    }
+    .Genusloci-container2-col1{
+               font-size: 80px;
+               padding-top: 10px;
+    }
+    .Genusloci-container2-col2 img{
+              width: 67%;
+    }
+}
+@media only screen and (max-width:500px){
+    .Genusloci-container2-col1{
+        font-size: 40px;
+    }
+    .Genusloci-container2-col2 img{
+        width: 80%;
+    }
+    .Genusloci-container3-col2 p{
+        font-size: 14px;
+    }
+}

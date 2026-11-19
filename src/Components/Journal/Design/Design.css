@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+.Design-main-container{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.inner-container-Design{
+    width: 85%;
+     
+    border-left: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Design-first-row{
+    /* border: 1px solid rgb(25, 0, 255); */
+}
+.inner-first-col-Design{
+  border-right: 2px solid black;
+}
+.inner-second-col-Design{
+   
+}
+.Design1-img{
+    width: 92%;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+    
+}
+.Design11-link{
+margin-left: 5px;
+font-size: 14px; 
+color: rgb(95, 95, 95); 
+}
+.Design2-link{
+margin-left: 5px;
+padding-bottom: 10px;
+font-size: 14px;
+color: rgb(95, 95, 95); 
+}
+.Design3-link{  
+    font-size: 14px;
+    color: rgb(95, 95, 95); 
+}
+.Design4-link{
+  
+    font-size: 14px;
+    color: rgb(95, 95, 95);  
+}
+.Design2-img-div{
+    text-align: center;
+   
+}
+.Design2-img{
+   width: 100%;
+   margin-top: 10px;
+}
+.Design3-img{
+   width: 100%;
+  margin-top: 10px;
+}
+.Design4-img{
+   width: 60%;
+   
+   margin-top: 10px;
+}
+.Design1-para-div{
+    padding-right: 70px;
+    margin-top: 10px;
+}
+.Design3-img-div{
+    text-align: center;
+}
+.Design4-img-div{
+    text-align: center;
+}
+.inner-first-col-Design p{
+    font-family: bodyfont;
+    margin-top: 20px;
+}
+.inner-second-col-Design p{
+    margin-top: 20px;
+}
+.Design2-col-inner-row{
+    border-top: 2px solid black;
+}
+.Design2-col-inner-col1{
+    border-right: 2px solid black;
+}
+.Design2-col-inner-col1 h3{
+      
+}
+.Design2-col-inner-col1 p{
+    margin-left: 0;
+}
+.Design2-col-inner-col2 h3{
+      font-size: 12px;
+}
+.Design2-col-inner-col2 p{
+    margin-left: 0;
+}
+
+@media only screen and (max-width:2560px){
+    .turya-designpage-link-div{
+        margin-top: 465px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 400px;
+    }
+}
+@media only screen and (max-width:2500px){
+    .turya-designpage-link-div{
+        margin-top: 450px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 380px;
+    }
+}
+@media only screen and (max-width:2450px){
+    .turya-designpage-link-div{
+        margin-top: 437px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 365px;
+    }
+}
+@media only screen and (max-width:2400px){
+    .turya-designpage-link-div{
+        margin-top: 425px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 355px;
+    }
+}
+@media only screen and (max-width:2350px){
+    .turya-designpage-link-div{
+        margin-top: 410px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 310px;
+    }
+}
+@media only screen and (max-width:2300px){
+    .turya-designpage-link-div{
+        margin-top: 396px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 300px;
+    }
+}
+@media only screen and (max-width:2240px){
+    .turya-designpage-link-div{
+        margin-top: 348px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 310px;
+    }
+}
+@media only screen and (max-width:2150px){
+    .turya-designpage-link-div{
+        margin-top: 290px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 250px;
+    }
+}
+@media only screen and (max-width:2020px){
+    .turya-designpage-link-div{
+        margin-top: 255px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 220px;
+    }
+}
+@media only screen and (max-width:1920px){
+    .turya-designpage-link-div{
+        margin-top: 230px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 190px;
+    }
+}
+@media only screen and (max-width:1850px){
+    .turya-designpage-link-div{
+        margin-top: 210px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 175px;
+    }
+}
+@media only screen and (max-width:1800px){
+    .turya-designpage-link-div{
+        margin-top: 305px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 280px;
+    }
+}
+@media only screen and (max-width:1728px){
+    .turya-designpage-link-div{
+        margin-top: 285px;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 265px;
+    }
+}
+@media only screen and (max-width:1632px){
+    .turya-designpage-link-div{
+        margin-top: 35vh;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 220px;
+    }
+}
+@media only screen and (max-width:1584px){
+    .turya-designpage-link-div{
+        margin-top: 34vh;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 210px;
+    }
+}
+@media only screen and (max-width:1536px){
+    .turya-designpage-link-div{
+        margin-top: 32vh;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 190px;
+    }
+}
+@media only screen and (max-width:1440px){
+    .turya-designpage-link-div{
+        margin-top: 56vh;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 170px;
+    }
+}
+@media only screen and (max-width:1392px){
+    .turya-designpage-link-div{
+        margin-top: 39vh;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 160px;
+    }
+}
+@media only screen and (max-width:1366px){
+    .turya-designpage-link-div{
+        margin-top: 26vh;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 125px;
+    }
+}
+@media only screen and (max-width:1296px){
+    .turya-designpage-link-div{
+        margin-top: 32vh;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 110px;
+    }
+}
+@media only screen and (max-width:1248px){
+    .turya-designpage-link-div{
+        margin-top: 30vh;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width:1152px){
+    .turya-designpage-link-div{
+        margin-top: 23vh;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 95px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .turya-designpage-link-div{
+        margin-top: 16vh;
+    }
+    .tamil-language .turya-designpage-link-div {
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width:950px){
+    .turya-designpage-link-div{
+        margin-top: 0vh;
+    }
+   .inner-second-col-Design{
+    border-top: 2px solid black;
+   }
+}
+@media only screen and (max-width:800px){
+    .Design1-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .Design2-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .inner-first-col-Design p{
+        margin-left: 0;
+        font-size: 15x;
+    }
+    .inner-second-col-Design p{
+        margin-left: 0;
+        font-size: 15x;
+    }
+    .Design2-col-inner-col1 h3{
+        font-size: 8px;
+    }
+    .Design2-col-inner-col2 h3{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width:500px){
+    .Design1-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .Design2-img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .inner-first-col-Design p{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .inner-second-col-Design p{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .Design2-col-inner-col1 h3{
+        font-size: 12px;
+    }
+    .Design2-col-inner-col2 h3{
+        font-size: 12px;
+    }
+    .inner-first-col-Design h3{
+          font-size: 12px;
+    }
+    .inner-second-col-Design h3{
+          font-size: 12px;
+    }
+    .inner-first-col-Design p{
+          font-size: 12px;
+    }
+    .inner-second-col-Design p{
+          font-size: 12px;
+    }
+    .inner-first-col-Design{
+        border-bottom: 2px solid black;
+    }
+    .Design2-col-inner-col1{
+        border-bottom: 2px solid black;
+    }
+}

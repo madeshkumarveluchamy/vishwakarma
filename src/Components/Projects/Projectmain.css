@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(../Fonts/Cristola\ Display.otf);
+}
+
+@font-face {
+  font-family: bodyfont;
+  src: url(../Fonts/antebas\ medium.otf);
+}
+
+.project-header-container {
+  display: flex;
+  justify-content: center; /* Center the header */
+  align-items: center; /* Center items vertically */
+  padding: 10px; /* Adjust padding as needed */
+  position: relative; /* Positioning context for dropdown */
+}
+
+.header-flex-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  width: 100%; /* Take full width */
+  justify-content: center; /* Space out the elements */
+  z-index: 1;
+}
+
+.project-head {
+  font-family: myfont;
+  text-align: center;
+  margin-top: -60px;
+  /* margin: 20px 0;  */
+  flex-grow: 1; /* Allow the header to grow to take up space */
+}
+
+.project-custom-navbar .navbar-logo a,
+.project-custom-navbar .navbar-links a,
+.project-custom-navbar .navbar-toggle i {
+  color: #000000; /* Change to your desired color */
+}
+
+
+@media screen and (max-width:576px) {
+  .project-head{
+    margin-top: 0;
+  }
+  
+}

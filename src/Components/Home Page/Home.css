@@ -1,0 +1,23 @@
+html{
+    
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#root{
+    height: 100%;
+    width: 100%;
+}
+/* .landing-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/k\ \(11\).jpg);
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+  } */

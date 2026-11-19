@@ -1,0 +1,85 @@
+import React, { useEffect } from 'react';
+import { useParams, Link } from 'react-router-dom';
+import { galleryItems } from '../../Gallery';
+import './Donutsai.css';
+import NavBar from '../../../Navbar/Navbar';
+import Donutsai1 from '../DetailProjectpageImages/donutsai1.webp';
+import Donutsai2 from '../DetailProjectpageImages/donutsai2.webp';
+import Donutsai4 from '../DetailProjectpageImages/donutsai4.webp';
+import Donutsai5 from '../DetailProjectpageImages/donutsai5.webp';
+import Donutsai6 from '../DetailProjectpageImages/donutsai6.webp';
+import plus from '../DetailProjectpageImages/plus.webp';
+import otherproject1 from '../../Project-images/P16.webp'
+import otherproject2 from '../../Project-images/P45.webp'
+import otherproject3 from '../../Project-images/P46.webp'
+import { useTranslation } from 'react-i18next';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+const Donutsai = () => {
+  const { t} = useTranslation('global');
+
+    const { id } = useParams();
+    const project = galleryItems.find(item => item.id === parseInt(id, 10));
+    
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [id]);
+    
+  return (
+    <div>
+      <NavBar className="project-custom-navbar" />
+      <div className="detail-page">
+       <LazyLoadImage className='Donutsai1' src={Donutsai1} alt="" />
+       <LazyLoadImage className='Donutsai2' src={Donutsai2} alt="" />
+      </div>
+      <div className="second-container-detailpage-Donutsai">
+       
+      </div>
+      <div className="detail-page-contain3  container-fluid">
+        
+        <LazyLoadImage className='Donutsai4' src={Donutsai4} alt="" />
+        <LazyLoadImage className='Donutsai5' src={Donutsai5} alt="" />
+        <LazyLoadImage className='Donutsai6' src={Donutsai6} alt="" />
+      </div>
+      <div className="container-fluid info-contain mt-1">
+        <div className="row justify-content-center">
+          <div className="col-10 col-sm-8 col-md-5 detailproject-col">
+            {/* <h2>{project.category}</h2>
+            <p>Project ID - {project.id}</p>
+            <p>Description for the project can go here...</p> */}
+           <h2>{t('donuts')}</h2>
+           <h6>{t('Typology')}<span className='specialcharacter'>- </span>{t('saidonuts-typology')}</h6>
+            <h6>{t('Year')}<span className='specialcharacter'>- </span> {t('saidonuts-year')}</h6>
+            <h6>{t('Area')}<span className='specialcharacter'>- </span>  {t('saidonuts-area')}</h6>
+            <h6>{t('Location')}  <span className='specialcharacter'>- </span> {t('saidonuts-Location')}</h6>
+            <p>{t('saidonuts-para')}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="otherprojects-contain container-fluid">
+        <div className='other-head'>
+          <LazyLoadImage className='plus-img' src={plus} alt="" />  {t('other-projects')}
+        </div>
+        <div className="row otherproject-row justify-content-start mt-2">
+         
+            <div className="col-10 col-sm-10 col-md-4 col-xl-4 otherprojects">
+                <Link to="/project/16"><LazyLoadImage className='other-project-img' src={otherproject1}  /> </Link>
+            </div>
+            <div className="col-10 col-sm-10 col-md-4 col-xl-4 otherprojects">
+            <Link to="/project/45"><LazyLoadImage className='other-project-img' src={otherproject2}  /> </Link>
+            </div>
+            <div className="col-10 col-sm-10 col-md-4 col-xl-4 otherprojects">
+            <Link to="/project/46"><LazyLoadImage className='other-project-img' src={otherproject3}  /> </Link>
+            </div>
+         
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Donutsai;
+
+
+

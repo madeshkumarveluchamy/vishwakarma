@@ -1,0 +1,1347 @@
+@font-face {
+    font-family: myfont;
+    src: url(../Fonts/Cristola\ Display.ttf);
+} 
+@font-face {
+    font-family: bodyfont;
+    src: url(../Fonts//DMSans-Medium.ttf);
+  }
+.journal{
+    font-family: myfont;
+    font-size: 50px;
+    padding-right: 20px;
+}
+.journal-menu{
+    padding-left: 20px;
+}
+.journal-menu a{
+    color: black;
+     text-decoration: none;
+}
+.journal-main-container{
+    border-top: 2px solid #000;
+}
+.reg-text{
+    display: flex;
+    justify-content: space-between;
+}
+.reg-text h3{
+    font-size: 18px;
+}
+.reg-text{
+    padding-top: 10px;
+}
+.top-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seemore{
+    font-family: myfont;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 25px;
+    color: black;
+}
+.journal-Thoughts1-link{
+    /* text-decoration: none; */
+    color: black;
+}
+.journal-Recognitions2-link{
+    /* text-decoration: none; */
+    color: black;
+}
+.journal-Recognitions3-link{
+    /* text-decoration: none; */
+    color: black;
+}
+.journal-extra-col1{
+    border: 2px solid black;
+    border-top: none;
+}
+
+.journal-extra-col2{
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+}
+.journal-extra-col2 p{
+    
+
+    color: black;
+}
+.journal-extra-col3{
+    border: 2px solid black;
+    border-top: none;
+  
+    border-left: none;
+}
+.journal-extra-col4{
+  
+    border-top: none;
+}
+.journal-extra-col5{
+    border-right: 2px solid black;
+   border-left: 2px solid #000;
+   
+}
+.thoughts2-img-seemore{
+    width: 100%;
+}
+.publications1-img-seemore{
+    width: 100%;
+}
+.recognitions1-img-seemore{
+    width: 100%;
+}
+.seemore-link{
+    color: black;
+    text-decoration: none;
+}
+.publication-main-coimbatore{
+ 
+}
+/* ..................... New CSS ........................... */
+.inner-container-Thoughts{
+    border: 2px solid black;
+    border-top: none;
+}
+.jounal-text-head-1{
+    font-family: myfont;
+text-align: center;
+padding: 80px;
+font-size: 30px;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.inner-first-col-Thoughts{
+    height: 100%;
+}
+.inner-second-col-Thoughts{
+    height: 100%;
+}
+.journal-main-first-col-in-row-col2{
+    border-left: 2px solid black;
+}
+.journal-thoughts3-img{
+    width: 100%;
+    margin-top: 10px;
+ 
+}
+.journal-main-first-col-in-row-col1{
+    border-right: 2px solid black;
+}
+.second-main-row{
+    border-top: 2px solid black;
+}
+.second-main-col-in-sec-col{
+    border-left: 2px solid black;
+}
+.journal-head-row{
+    padding: 60px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.jounal-text-head-2{
+    font-family: myfont;   
+}
+.inner-seemore-contain{
+    width: 85%;
+    margin: 0 auto;
+}
+#seemore-row1{
+    border-top: 2px solid black;
+}
+.journal-extra-col6{
+    border-top: 2px solid black;
+}
+.journal-summer-house-link{
+    /* text-decoration: none; */
+    color: black;
+}
+.inner-second-col-journal-summer{
+    border-left: 2px solid black;
+}
+.inner-second-col-journal-summer p{
+                 margin-top: 15px;
+}
+.century-link-journal{
+    /* text-decoration: none; */
+    color: black;
+}
+.journal-main-container a{
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+}
+.summerhouse-journal-img{
+    width: 80%;
+    margin-top: 10px;
+}
+.sketchimg1{
+width: 46%;
+}
+.sketchimg2{
+    width: 45%;
+}
+.tamil-language .jounal-text-head-1{
+    
+}
+/* ...........................................  Media Query ............................ */
+@media screen and (max-width:2560px) {
+    .jounal-text-head-1{
+        font-size: 45px;
+        padding: 200px;
+        padding-top: 204px;
+        padding-bottom: 206px;
+    }
+    .tamil-language .jounal-text-head-1{
+        font-size: 45px;
+        padding: 180px;
+        padding-top: 200px;
+        padding-bottom: 138px;
+      }
+    .reg-text-small-col h3{
+        font-size: 20px;
+    }
+    .journal-head-row{
+        padding: 120px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 54px;
+    }
+    .tamil-language .genusloci-linkdiv{
+        margin-top: 88px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 90px;
+    }
+    .tamil-language .turya-link-div{
+        margin-top: 50px;
+    }
+
+   .tamil-language .staircase-link-div{
+          margin-top: 50px;
+    }
+    .shreyahome-div{
+      margin-top: 63px;
+    }
+    .tamil-language .shreyahome-div{
+        margin-top: 95px;
+      }
+    .avinashilingams-link-div{
+           margin-top: 28px;
+    }
+    .wade-link-div{
+        margin-top: 220px;
+    }
+   .tamil-language .wade-link-div{
+        margin-top: 187px;
+    }
+    .century-link-div{
+        margin-top: 220px;
+    }
+}
+@media screen and (max-width:2500px) {
+    .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 196px;
+        padding-bottom: 196px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 54px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 70px;
+    }
+    .turya-link-div{
+        margin-top: 30px;
+    }
+    .tamil-language .turya-link-div{
+        margin-top: 30px;
+    }
+    .staircase-link-div{
+        margin-top: 40px;
+  }
+  .tamil-language .staircase-link-div{
+    margin-top: 74px;
+}
+  .shreyahome-div{
+    margin-top: 82px;
+  }
+  .tamil-language .shreyahome-div{
+    margin-top: 85px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 50px;
+  }
+ .tamil-language .avinashilingams-link-div{
+    margin-top: 10px;
+  }
+  .wade-link-div{
+    margin-top: 210px;
+}
+.century-link-div{
+    margin-top: 210px;
+}
+.tamil-language .wade-link-div{
+    margin-top: 180px;
+}
+
+}
+@media screen and (max-width:2450px) {
+    .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 190px;
+        padding-bottom: 190px;
+    }
+    .tamil-language .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 172px;
+        padding-bottom: 172px;
+    }
+    .wade-link-div{
+        margin-top: 202px;
+    }
+    .century-link-div{
+        margin-top: 200px;
+    }
+    .tamil-language .wade-link-div{
+        margin-top: 168px;
+    }
+
+}
+@media screen and (max-width:2400px) {
+    .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 164px;
+        padding-bottom: 166px;
+    }
+    .tamil-language .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 145px;
+        padding-bottom: 145px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 54px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 88px;
+    }
+    .tamil-language .recognitionlink-2-div{
+        margin-top: 58px;
+    }
+    .turya-link-div{
+        margin-top: 15px;
+    }
+    .tamil-language .turya-link-div{
+        margin-top: 10px;
+    }
+    .wade-link-div{
+        margin-top: 195px;
+    }
+    .century-link-div{
+        margin-top: 190px;
+    }
+    .tamil-language .wade-link-div{
+        margin-top: 127px;
+    }
+}
+@media screen and (max-width:2350px) {
+    .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 142px;
+        padding-bottom: 142px;
+    }
+    .tamil-language .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .turya-link-div{
+        margin-top: 50px;
+    }
+    .staircase-link-div{
+        margin-top: 40px;
+  }
+  .shreyahome-div{
+    margin-top: 50px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 50px;
+  }
+  .wade-link-div{
+    margin-top: 190px;
+}
+.century-link-div{
+    margin-top: 180px;
+}
+.tamil-language .wade-link-div{
+    margin-top: 120px;
+}
+}
+@media screen and (max-width:2300px) {
+    .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 150px;
+        padding-bottom: 152px;
+    }
+    .tamil-language .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 53px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 55px;
+    }
+    .tamil-language .recognitionlink-2-div{
+        margin-top: 23px;
+    }
+    .turya-link-div{
+        margin-top: 15px;
+    }
+    
+    .wade-link-div{
+        margin-top: 180px;
+    }
+    .century-link-div{
+        margin-top: 130px;
+    }
+    .tamil-language .wade-link-div{
+        margin-top: 110px;
+    }
+}
+@media screen and (max-width:2240px) {
+    .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 142px;
+        padding-bottom: 145px;
+    }
+    .tamil-language .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .tamil-language .turya-link-div{
+        margin-top: 50px;
+    }
+    .staircase-link-div{
+        margin-top: 45px;
+  }
+  .shreyahome-div{
+    margin-top: 50px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 50px;
+  }
+  .wade-link-div{
+    margin-top: 170px;
+}
+.century-link-div{
+    margin-top: 120px;
+}
+.tamil-language .wade-link-div{
+    margin-top: 105px;
+}
+}
+/* @media screen and (max-width:2200px) {
+    .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 133px;
+        padding-bottom: 133px;
+    }
+    
+} */
+@media screen and (max-width:2150px) {
+    .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 122px;
+        padding-bottom: 122px;
+    }
+    .tamil-language .jounal-text-head-1{
+        font-size: 38px;
+        padding: 200px;
+        padding-top: 120px;
+        padding-bottom: 115px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 54px;
+    }
+    
+    .tamil-language .genusloci-linkdiv{
+        margin-top: 60px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 55px;
+    }
+    .turya-link-div{
+        margin-top: 15px;
+    }
+   
+   .tamil-language .turya-link-div{
+        margin-top: 50px;
+    }
+   
+    .wade-link-div{
+        margin-top: 157px;
+    }
+    .century-link-div{
+        margin-top: 100px;
+    }
+    .staircase-link-div{
+        margin-top: 80px;
+  }
+  .shreyahome-div{
+    margin-top: 85px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 50px;
+  }
+  .tamil-language .wade-link-div{
+    margin-top: 90px;
+}
+.tamil-language .staircase-link-div{
+    margin-top: 82px;
+}
+.tamil-language .avinashilingams-link-div{
+    margin-top: 50px;
+}
+}
+@media screen and (max-width:2100px) {
+    .jounal-text-head-1{
+        font-size: 43px;
+        padding: 200px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+   .tamil-language .jounal-text-head-1{
+        font-size: 38px;
+        padding: 170px;
+        padding-top: 170px;
+        padding-bottom: 170px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 54px;
+    }
+   .tamil-language .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 88px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 87px;
+    }
+    .turya-link-div{
+        margin-top: 50px;
+    }
+    
+    .staircase-link-div{
+        margin-top: 50px;
+  }
+  .shreyahome-div{
+    margin-top: 50px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 0px;
+  }
+  .wade-link-div{
+    margin-top: 150px;
+}
+.century-link-div{
+    margin-top: 125px;
+}
+ .tamil-language .century-link-div{
+    margin-top: 55px;
+}
+.tamil-language .wade-link-div{
+    margin-top: 48px;
+}
+.tamil-language .staircase-link-div{
+    margin-top: 114px;
+}
+.tamil-language .shreyahome-div{
+    margin-top: 120px;
+}
+}
+@media screen and (max-width:2000px) {
+    .jounal-text-head-1{
+        font-size: 40px;
+        padding: 150px;
+        padding-top: 123px;
+        padding-bottom: 123px;
+    }
+    .tamil-language .jounal-text-head-1{
+        font-size: 38px;
+        padding: 170px;
+        padding-top: 110px;
+        padding-bottom: 120px;
+    }
+    .tamil-language .recognitionlink-2-div{
+        margin-top: 50px;
+    }
+    .turya-link-div{
+        margin-top: 0;
+    }
+    .wade-link-div{
+        margin-top: 132px;
+    }
+    .century-link-div{
+        margin-top: 70px;
+    }
+    .tamil-language .wade-link-div{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:1920px) {
+    .jounal-text-head-1{
+        font-size: 40px;
+        padding: 150px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+   .tamil-language .jounal-text-head-1{
+        font-size: 35px;
+        padding: 150px;
+        padding-top: 145px;
+        padding-bottom: 145px;
+    }
+   
+    .wade-link-div{
+        margin-top: 123px;
+    }
+    .century-link-div{
+        margin-top: 55px;
+    }
+   .tamil-language .century-link-div{
+        margin-top: 20px;
+    }
+    .tamil-language .wade-link-div{
+        margin-top: 20px;
+    }
+    .tamil-language .staircase-link-div{
+        margin-top: 155px;
+    }
+}
+/* @media screen and (max-width:1900px) {
+    .jounal-text-head-1{
+        font-size: 40px;
+        padding: 150px;
+        padding-top: 104px;
+        padding-bottom: 105px;
+    }
+    
+} */
+@media screen and (max-width:1850px) {
+    .jounal-text-head-1{
+        font-size: 40px;
+        padding: 150px;
+        padding-top: 120px;
+        padding-bottom: 122px;
+    }
+    
+   .tamil-language .jounal-text-head-1{
+        font-size: 40px;
+        padding: 150px;
+        padding-top: 83px;
+        padding-bottom: 83px;
+    }
+    .tamil-language .genusloci-linkdiv{
+        margin-top: 120px;
+    }
+    .wade-link-div{
+        margin-top: 110px;
+    }
+    .century-link-div{
+        margin-top: 45px;
+    }
+    .tamil-language .century-link-div{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:1825px) {
+    .jounal-text-head-1{
+        font-size: 38px;
+        padding: 150px;
+        padding-top: 110px;
+        padding-bottom: 108px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 120px;
+    }
+    .tamil-language .genusloci-linkdiv{
+        margin-top: 127px;
+    }
+    .turya-link-div{
+        margin-top: 47px;
+    }
+    .tamil-language .century-link-div{
+        margin-top: 1px;
+    }
+}
+@media screen and (max-width:1728px) {
+    .jounal-text-head-1{
+        font-size: 35px;
+        padding: 150px;
+        padding-top: 105px;
+        padding-bottom: 107px;
+    }
+    .tamil-language .jounal-text-head-1{
+        font-size: 30px;
+        padding: 150px;
+        padding-top: 95px;
+        padding-bottom: 90px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 40px;
+    }
+    .tamil-language .genusloci-linkdiv{
+        margin-top: 60px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 40px;
+    }
+    .tamil-language .recognitionlink-2-div{
+        margin-top: 70px;
+    }
+    .turya-link-div{
+        margin-top: 13px;
+    }
+    
+    .staircase-link-div{
+        margin-top: 40px;
+  }
+   .tamil-language .staircase-link-div{
+        margin-top: 63px;
+  }
+  .shreyahome-div{
+    margin-top: 50px;
+  }
+ .tamil-language .shreyahome-div{
+    margin-top: 90px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 50px;
+  }
+  .wade-link-div{
+    margin-top: 140px;
+}
+.century-link-div{
+    margin-top: 8px;
+}
+.tamil-language .sketch-link-div{
+    margin-top: 70px;
+}
+.tamil-language .wade-link-div{
+    margin-top: 120px;
+}
+}
+@media screen and (max-width:1632px) {
+    .jounal-text-head-1{
+        font-size: 31px;
+        padding: 150px;
+        padding-top: 105px;
+        padding-bottom: 105px;
+    }
+   .tamil-language .jounal-text-head-1{
+        font-size: 25px;
+        padding: 150px;
+        padding-top: 106px;
+        padding-bottom: 106px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 40px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 65px;
+    }
+    .turya-link-div{
+        margin-top: 20px;
+    }
+    
+    .staircase-link-div{
+        margin-top: 40px;
+  }
+  .shreyahome-div{
+    margin-top: 50px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 30px;
+  }
+  .wade-link-div{
+    margin-top: 125px;
+}
+.sketch-link-div{
+    margin-top: 57px;
+}
+.tamil-language .sketch-link-div{
+    margin-top: 85px;
+}
+.tamil-language .wade-link-div{
+    margin-top: 85px;
+}
+}
+@media screen and (max-width:1584px) {
+    .jounal-text-head-1{
+        font-size: 30px;
+        padding: 150px;
+        padding-top: 77px;
+        padding-bottom: 77px;
+    }
+   .tamil-language .jounal-text-head-1{
+        font-size: 25px;
+        padding: 150px;
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    .journal-head-row{
+        padding: 80px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 40px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 80px;
+    }
+    .turya-link-div{
+        margin-top: 37px;
+    }
+    
+    .staircase-link-div{
+        margin-top: 45px;
+  }
+  .shreyahome-div{
+    margin-top: 50px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 30px;
+  }
+  .wade-link-div{
+    margin-top: 97px;
+}
+.sketch-link-div{
+    margin-top: 0px;
+}
+.century-link-div{
+    margin-top: 60px;
+}
+.tamil-language .sketch-link-div{
+    margin-top: 2px;
+}
+.tamil-language .wade-link-div{
+    margin-top: 75px;
+}
+}
+@media screen and (max-width:1536px) {
+    .jounal-text-head-1{
+        font-size: 28px;
+        padding: 130px;
+        padding-top: 105px;
+        padding-bottom: 105px;
+    }
+    .tamil-language .jounal-text-head-1{
+        font-size: 25px;
+        padding: 150px;
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 40px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 62px;
+    }
+    .turya-link-div{
+        margin-top: 18px;
+    }
+    
+    .staircase-link-div{
+        margin-top: 25px;
+  }
+  .shreyahome-div{
+    margin-top: 50px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 30px;
+  }
+ .tamil-language .avinashilingams-link-div{
+    margin-top: 28px;
+  }
+  .wade-link-div{
+    margin-top: 90px;
+}
+.century-link-div{
+    margin-top: 50px;
+}
+.tamil-language .wade-link-div{
+    margin-top: 70px;
+}
+}
+@media screen and (max-width:1440px) {
+    .jounal-text-head-1{
+        font-size: 28px;
+        padding: 130px;
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+   .tamil-language .jounal-text-head-1{
+        font-size: 25px;
+        padding: 130px;
+        padding-top: 62px;
+        padding-bottom: 62px;
+    }
+    .reg-text-small-col h3{
+        font-size: 16px;
+    }
+    .reg-text h3{
+        font-size: 16px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 40px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 38px;
+    }
+  .tamil-language .recognitionlink-2-div{
+        margin-top: 30px;
+    }
+    .turya-link-div{
+        margin-top: 12px;
+    }
+ 
+    .staircase-link-div{
+        margin-top: 25px;
+  }
+  .tamil-language  .staircase-link-div{
+        margin-top: 65px;
+  }
+  .shreyahome-div{
+    margin-top: 28px;
+  }
+ .tamil-language .shreyahome-div{
+    margin-top: 70px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 28px;
+  }
+  .wade-link-div{
+    margin-top: 78px;
+}
+ .tamil-language .wade-link-div{
+    margin-top: 35px;
+}
+.century-link-div{
+    margin-top: 0px;
+}
+.sketch-link-div{
+    margin-top: 8px;
+}
+ .tamil-language .sketch-link-div{
+    margin-top: 25px;
+}
+}
+@media screen and (max-width:1392px) {
+    .jounal-text-head-1{
+        font-size: 28px;
+        padding: 130px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+   .tamil-language .jounal-text-head-1{
+        font-size: 25px;
+        padding: 130px;
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    
+    .wade-link-div{
+        margin-top: 70px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 0px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 38px;
+    }
+    .tamil-language .sketch-link-div{
+        margin-top: 30px;
+    }
+    .tamil-language .wade-link-div{
+        margin-top: 24px;
+    }
+    .tamil-language .staircase-link-div{
+        margin-top: 47px;
+    }
+}
+@media screen and (max-width:1366px) {
+    .jounal-text-head-1{
+        font-size: 25px;
+        padding: 100px;
+        padding-top: 108px;
+        padding-bottom: 107px;
+    }
+   .tamil-language .jounal-text-head-1{
+        font-size: 25px;
+        padding: 100px;
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 0px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 39px;
+    }
+   .tamil-language .recognitionlink-2-div{
+        margin-top: 14px;
+    }
+    .turya-link-div{
+        margin-top: 12px;
+    }
+   .tamil-language .turya-link-div{
+        margin-top: 35px;
+    }
+   
+    .wade-link-div{
+        margin-top: 64px;
+    }
+   
+   .tamil-language .wade-link-div{
+        margin-top: 42px;
+    }
+    .sketch-link-div{
+        margin-top: 20px;
+    }
+    .staircase-link-div{
+        margin-top: 36px;
+  }
+  .shreyahome-div{
+    margin-top: 38px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 0px;
+  }
+  .tamil-language .jounal-text-head-1{
+    font-size: 25px;
+    padding: 105px;
+    padding-top: 111px;
+    padding-bottom: 107px;
+  }
+  .tamil-language .sketch-link-div{
+    margin-top: 62px;
+}
+}
+@media screen and (max-width:1296px) {
+    .jounal-text-head-1{
+        font-size: 25px;
+        padding: 100px;
+        padding-top: 86px;
+        padding-bottom: 86px;
+    }
+   .tamil-language .jounal-text-head-1{
+        font-size: 22px;
+        padding: 100px;
+        padding-top: 113px;
+        padding-bottom: 113px;
+    }
+    
+    .sketch-link-div{
+        margin-top: 10px;
+    }
+    .staircase-link-div{
+        margin-top: 38px;
+  }
+   .tamil-language .staircase-link-div{
+        margin-top: 68px;
+  }
+  .shreyahome-div{
+    margin-top: 38px;
+  }
+ .tamil-language .shreyahome-div{
+    margin-top: 67px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 0px;
+  }
+  .wade-link-div{
+    margin-top: 55px;
+}
+.sketch-link-div{
+    margin-top: 50px;
+}
+.genusloci-linkdiv{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+.recognitionlink-2-div{
+    margin-top: 60px;
+}
+.tamil-language .sketch-link-div{
+    margin-top: 110px;
+}
+ .tamil-language .lighthouse-link-div{
+    margin-top: 48px;
+ }
+}
+@media screen and (max-width:1248px) {
+    .jounal-text-head-1{
+        font-size: 25px;
+        padding: 100px;
+        padding-top: 80px;
+        padding-bottom: 79px;
+    }
+   .tamil-language .jounal-text-head-1{
+        font-size: 22px;
+        padding: 100px;
+        padding-top: 108px;
+        padding-bottom: 108px;
+    }
+    
+     .sketch-link-div{
+        margin-top: 80px; 
+    }
+.wade-link-div{
+    margin-top: 48px;
+}
+.tamil-language .sketch-link-div{
+    margin-top: 100px;
+}
+.tamil-language .lighthouse-link-div{
+    margin-top: 52px;
+ }
+ .tamil-language .staircase-link-div{
+    margin-top: 90px;
+}
+.tamil-language .shreyahome-div{
+    margin-top: 90px;
+  }
+}
+@media screen and (max-width:1152px) {
+    .jounal-text-head-1{
+        font-size: 24px;
+        padding: 100px;
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+   .tamil-language .jounal-text-head-1{
+        font-size: 22px;
+        padding: 100px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .sketch-link-div{
+        margin-top: 135px;  
+    }
+    .wade-link-div{
+        margin-top: 33px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 80px;
+    }
+    .turya-link-div{
+        margin-top: 38px;
+    }
+    .tamil-language .sketch-link-div{
+        margin-top: 150px;
+    }
+    .tamil-language .lighthouse-link-div{
+        margin-top: 68px;
+     }
+     .tamil-language .shreyahome-div{
+        margin-top: 67px;
+      }
+}
+@media screen and (max-width:1024px) {
+    .jounal-text-head-1{
+        font-size: 20px;
+        padding: 100px;
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+   .tamil-language .jounal-text-head-1{
+        font-size: 20px;
+        padding: 100px;
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+    .genusloci-linkdiv{
+        /* border: 1px solid red; */
+        margin-top: 57px;
+    }
+    .recognitionlink-2-div{
+        margin-top: 58px;
+        
+    }
+   .tamil-language .recognitionlink-2-div{
+        margin-top: 72px;
+        
+    }
+    .turya-link-div{
+        margin-top: 12px;
+    }
+    .sketch-link-div{
+        margin-top: 167px;  
+    }
+    .staircase-link-div{
+        margin-top: 43px;
+  }
+   .tamil-language .staircase-link-div{
+        margin-top: 115px;
+  }
+  .shreyahome-div{
+    margin-top: 38px;
+  }
+  .tamil-language .shreyahome-div{
+    margin-top: 90px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 0px;
+  }
+  .wade-link-div{
+    margin-top: 0px;
+}
+.tamil-language .sketch-link-div{
+    margin-top: 167px;
+}
+.tamil-language .lighthouse-link-div{
+    margin-top: 90px;
+ }
+}
+@media screen and (max-width:950px) {
+    .journal{
+        font-size: 25px;
+    }
+    .journal-menu{
+        font-size: 13px;
+    }
+    .jounal-text-head-1{
+        font-size: 20px;
+        padding: 100px;
+        padding-top: 43px;
+        padding-bottom: 43px;
+    }
+    .tamil-language .recognitionlink-2-div{
+        margin-top: 20px;
+    }
+    .genusloci-col{
+        border-top: 2px solid black;
+    }
+    .tamil-language .genusloci-linkdiv{
+        margin-top: 0px;
+    }
+    .summer-row{
+        border-top: 2px solid black;
+    }
+    .turya-link-div{
+        margin-top: 30px;
+    }
+    .sketch-col{
+        border-top: 2px solid black;
+    }
+    .sketch-link-div{
+        margin-top: 0px;  
+    }
+    .materialitylink-div{
+        margin-top: 20px;
+    }
+    .tamil-language .sketch-link-div{
+        margin-top: 0px;
+    }
+    .journal-extra-col5 {
+        border-right: 0px solid black;
+        border-left: 0px solid #000;
+        border-top: 2px solid #000;
+    }
+    .tamil-language .staircase-link-div{
+        margin-top: 90px;
+  }
+}
+@media screen and (max-width:768px) {
+    .jounal-text-head-1{
+        font-size: 20px;
+        padding: 100px;
+        padding-top: 43px;
+        padding-bottom: 43px;
+    }
+    .genusloci-col{
+        border-top: 2px solid black;
+    }
+    .summer-row{
+        border-top: 2px solid black;
+    }
+    .turya-link-div{
+        margin-top: 55px;
+    }
+    .sketch-col{
+        border-top: 2px solid black;
+    }
+    
+    .sketch-link-div{
+        margin-top: 0px;  
+    }
+    .staircase-link-div{
+        margin-top: 58px;
+  }
+  .shreyahome-div{
+    margin-top: 34px;
+  }
+  .avinashilingams-link-div{
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width:500px) {
+    .jounal-text-head-1{
+        font-size: 20px;
+        padding: 100px;
+        padding-top: 43px;
+        padding-bottom: 43px;
+    }
+    .genusloci-col{
+        border-top: 2px solid black;
+    }
+    .summer-row{
+        border-top: none;
+    }
+    .turya-link-div{
+        margin-top: 55px;
+    }
+    .sketch-col{
+        border-top: 2px solid black;
+    }
+    .journal-main-first-col-in-row-col2{
+        border-top: 2px solid black;
+        border-left: none;
+    }
+    .journal-extra-col5{
+        border-top: 2px solid black;
+    }
+}
+
+

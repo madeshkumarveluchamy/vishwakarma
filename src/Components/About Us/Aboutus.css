@@ -1,0 +1,776 @@
+@font-face {
+  font-family: myfont;
+  src: url(../Fonts/Cristola\ Display.otf);
+}
+@font-face {
+  font-family: body;
+  src: url(../Fonts/DMSans-Medium.ttf);
+  
+}
+.abt-custom-navbar .navbar-logo a{
+   display: none;
+}
+.abt-custom-navbar .navbar-links a,
+.abt-custom-navbar .navbar-toggle i {
+  color: #000000; /* Change to your desired color */
+}
+.main-container{
+  width: 100%;
+}
+
+.sub-1 h1 {
+  font-family: myfont;
+  font-size: 58px;
+}
+
+.sub-1 {
+  text-align: center;
+}
+
+.h1-wrap {
+  position: relative;
+  padding-top: 17px;
+}
+
+.logo {
+  width: 154px;
+  height: 120px;
+  position: absolute;
+  inset: 0;
+  left: 49.3%;
+}
+
+.landing-img {
+  width: 100%;
+  height: 120vh;
+  
+  
+  /* padding: 10px 25px; */
+}
+
+.h1-1 {
+  margin-right: 20%;
+}
+
+.h1-2 {
+  margin-left: 17.5%;
+}
+.abt-intro-para-container{
+  width: 100%;
+}
+.section-2 {
+  margin-top: 8%;
+  width: 100%;
+}
+
+.img-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gp {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gp a {
+  font-size: 21px;
+  text-decoration: none;
+  color: black;
+}
+.see-team a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  font-family: body;
+
+}
+.see-team{
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  text-align: center;
+
+}
+.see-team img{
+  width: 30px;
+  margin-bottom: 2px;
+ 
+  margin-left: 10px;
+  
+}
+.numbers{
+  border-bottom: black 2px solid;
+  padding-bottom: 7px;
+  font-size: 30px;
+}
+.numberscol{
+  padding-right: 0px;
+  margin-left: 0px;
+}
+.gp img {
+  width: 200px;
+  /* height: 24px; */
+  margin-bottom: 6px;
+  /* transform: rotate(48deg); */
+}
+
+.bt-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.hide {
+  display: block;
+}
+
+.proj-2{
+    display: none;
+}
+.heading{
+  font-family: body;
+  font-size: 28px;
+}
+.main-container p{
+    color: rgb(94, 93, 93);
+    font-family: body;
+    font-weight: 100;
+    font-size: 13.5px;
+}
+.num{
+  padding-top: 3.5%;
+}
+.abt-extra-page{
+  margin-top: 20px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/abt-extra.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* .................................................... Team CSS ...................................................  */
+ .team-container{
+  width: 100%;
+  padding: 100px;
+ 
+  background-color:rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+}
+.team-head-div{
+  z-index: 10;
+   position: relative;
+}
+.team-land-head {
+  font-size: clamp(7.5rem, 5vw, 15rem);
+  font-family: myfont;
+  color: black;
+  position: relative; 
+  z-index: 2;
+}
+
+.span-head {
+  margin-left: 450px;
+  color: black;
+  position: relative; 
+  z-index: 2; 
+}
+
+.team-logo {
+  width: 200px;
+  margin-bottom: 50px;
+  margin-left: -80px;
+  position: absolute; 
+  z-index: -2;
+
+}
+.sec-service-container2{
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+ 
+}
+.Team{
+  text-align: start;
+  margin-bottom: 50px;
+}
+.service-second-col-2 h2{
+ 
+  margin-top: 100px;
+  font-family: bodyfont;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.service-second-contain{
+  width: 95%;
+
+  margin: 0 auto;
+}
+.team-quote{
+  margin-top: 100px;
+  font-size: 18px;
+}
+.second-container-row{
+  border-bottom: 2px solid black;
+}
+.wallimg{
+  width: 75%;
+}
+.service-second-col-1{
+  border-right: 2px solid black;
+}
+
+.blueprint1{
+  width: 80%;
+}
+.second-container-inner-row{
+ margin-top: 160px;
+ margin-left: 20px;
+}
+.service-second-container-in-col1{
+ 
+
+  text-align: start;
+}
+.service-second-container-in-col1 p{
+  text-align: justify;
+  font-size: 16px;
+  color: rgb(78, 78, 78);
+}
+.service-second-container-in-col1 h5{
+  font-size: 20px;
+  font-family: bodyfont;
+  font-weight: 400;
+}
+.service-second-container-in-col2{
+ 
+  text-align: start;
+  padding-left: 50px;
+  font-size: bodyfont;
+}
+
+.service-second-container-in-col2 h5{
+  font-family: bodyfont;
+  font-weight: 400;
+  font-size:22px;
+}
+.emp-container{
+  width: 100%;
+  padding: 10px;
+  background-color:rgb(255, 255, 255);
+}
+.emp-head{
+  font-size: 5em;
+  font-family: myfont;
+  text-align: center;
+}
+.emp-container p{
+  padding: 10px 35px;
+}
+.emp-container img{
+  width: 100%;
+  padding: 0;
+}
+.num-left{
+  margin-left: 0.5%;
+} 
+/* .................................................. Media Query .............................................  */
+@media only screen and (min-width: 1800px) and (max-width: 2560px) {
+  .logo {
+    width: 214px;
+    height: 150px;
+    position: absolute;
+    inset: 0;
+    left: 48.5%;
+    top: 6%;
+  }
+  .landing-img {
+    width: 100%;
+    height: 100vh;
+   
+  }
+
+  .sub-1 h1 {
+    font-size: 90px;
+  }
+  .h1-1 {
+    margin-right: 20%;
+  }
+  
+  .h1-2 {
+    margin-left: 15%;
+  }
+  .heading{
+    font-family: body;
+    font-size: 45px;
+  }
+  p{
+    font-size: 23px;
+  }
+  .gp img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 6px;
+    transform: rotate(48deg);
+  }
+  .numbers{
+    font-size: 40px;
+  }
+  .bt-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .proj-2 h4{
+    font-size: 40px;
+  }
+  .img-2 {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media screen and (max-width:2400px) {
+  .landing-img{
+    height: 100%;
+  }
+  
+}
+@media only screen and (min-width: 1024px) and (max-width: 1800px) {
+  p {
+    font-size: 14px;
+  }
+  .heading {
+    font-size: 28px;
+  }
+  .landing-img {
+    width: 100%;
+    height: 100%;
+   
+  }
+  .img-2 {
+    height: 100%;
+    width: 100%;
+  }
+  .sub-1 h1 {
+    font-size: 48px;
+  }
+  .logo {
+    width: 130px;
+    height: 97px;
+    top: 4%;
+  }
+  .numbers {
+    font-size: 25px;
+  }
+  .gp img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 6px;
+    transform: rotate(48deg);
+  }
+  .gp h4 {
+    font-size: 17px;
+  }
+  .service-second-container-in-col1 h5{
+    font-size: 18px;
+}
+.service-second-container-in-col1 p{
+    font-size: 14px;
+}
+.service-second-container-in-col2 h5{
+    font-size: 20px;
+}
+.service-second-container-in-col2 h6{
+    font-size: 14px;
+}
+
+}
+@media screen and (max-width:1440px) {
+  .landing-img{
+    height: 100%;
+    /* display: none; */
+  }
+}
+@media screen and (max-width:1370px) {
+  .landing-img{
+    height: 100vh;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+  .hide {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .landing-img {
+    padding: 10px 11px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .hide {
+    display: none;
+  }
+  .gp img {
+    width: 16px;
+    height: 16px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  p {
+    font-size: 12px;
+  }
+  .heading {
+    font-size: 22px;
+  }
+  .sub-1 h1 {
+    font-size: 35px;
+  }
+  .logo {
+    width: 110px;
+    height: 77px;
+    top: 0%;
+  }
+  .gp h4 {
+    font-size: 18px;
+  }
+  .gp img {
+    width: 16px;
+    height: 16px;
+  }
+  .landing-img {
+    padding: 10px 0px;
+    width: 100%;
+    height: 50vh;
+  }
+  .proj-1{
+    display: none;
+  }
+  .proj-2{
+    display: block;
+    display: flex;
+  }
+  .numbers{
+    font-size: 23px;
+  }
+  .service-second-col-1{
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+.service-second-container-in-col1 h5{
+     font-size: 17px;
+}
+.service-second-container-in-col1 p{
+     font-size: 14px;
+}
+.service-second-container-in-col2 h5{
+  font-size: 17px;
+}
+.service-second-container-in-col2 h6{
+  font-size: 15px;
+}
+.service-second-container-in-col2{
+    padding-left: 20px;
+}
+.service-second-col-2 h2{
+    font-size: 18px;
+}
+.team-land-head{
+  font-size: 5em;
+
+}
+.num-left{
+  margin-left: 0;
+}
+.team-logo{
+  width: 100px;
+  margin-left: -40px;
+  margin-bottom: 20px;
+}
+.span-head{
+  margin-left: 80px;
+}
+.emp-head{
+  font-size: 3em;
+}
+.abt-extra-page{
+  height: 50vh;
+}
+}
+@media only screen and (max-width: 770px) {
+  p {
+    font-size: 12px;
+  }
+  .heading {
+    font-size: 22px;
+  }
+  .sub-1 h1 {
+    font-size: 35px;
+  }
+  .logo {
+    width: 110px;
+    height: 77px;
+    top: 0%;
+  }
+  .gp h4 {
+    font-size: 18px;
+  }
+  .gp img {
+    width: 16px;
+    height: 16px;
+  }
+  .landing-img {
+    padding: 10px 0px;
+    width: 100%;
+    height: 50vh;
+  }
+  .proj-1{
+    display: none;
+  }
+  .proj-2{
+    display: block;
+    display: flex;
+  }
+  .numbers{
+    font-size: 23px;
+  }
+  .service-second-col-1{
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+.service-second-container-in-col1 h5{
+     font-size: 17px;
+}
+.service-second-container-in-col1 p{
+     font-size: 14px;
+}
+.service-second-container-in-col2 h5{
+  font-size: 17px;
+}
+.service-second-container-in-col2 h6{
+  font-size: 15px;
+}
+.service-second-container-in-col2{
+    padding-left: 20px;
+}
+.service-second-col-2 h2{
+    font-size: 18px;
+}
+.team-land-head{
+  font-size: 5em;
+
+}
+.num-left{
+  margin-left: 0;
+}
+.team-logo{
+  width: 100px;
+  margin-left: -40px;
+  margin-bottom: 20px;
+}
+.span-head{
+  margin-left: 80px;
+}
+.emp-head{
+  font-size: 3em;
+}
+.abt-extra-page{
+  height: 50vh;
+}
+}
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 12px;
+  }
+  .heading {
+    font-size: 22px;
+  }
+  .sub-1 h1 {
+    font-size: 35px;
+  }
+  .logo {
+    width: 110px;
+    height: 77px;
+    top: 0%;
+  }
+  .gp h4 {
+    font-size: 18px;
+  }
+  .gp img {
+    width: 16px;
+    height: 16px;
+  }
+  .landing-img {
+    padding: 10px 0px;
+    width: 100%;
+    height: 30vh;
+  }
+  .proj-1{
+    display: none;
+  }
+  .proj-2{
+    display: block;
+    display: flex;
+  }
+  .numbers{
+    font-size: 23px;
+  }
+  .service-second-col-1{
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+.service-second-container-in-col1 h5{
+     font-size: 17px;
+}
+.service-second-container-in-col1 p{
+     font-size: 14px;
+}
+.service-second-container-in-col2 h5{
+  font-size: 17px;
+}
+.service-second-container-in-col2 h6{
+  font-size: 15px;
+}
+.service-second-container-in-col2{
+    padding-left: 20px;
+}
+.service-second-col-2 h2{
+    font-size: 18px;
+}
+.team-land-head{
+  font-size: 5em;
+
+}
+.num-left{
+  margin-left: 0;
+}
+.team-logo{
+  width: 100px;
+  margin-left: -40px;
+  margin-bottom: 20px;
+}
+.span-head{
+  margin-left: 80px;
+}
+.emp-head{
+  font-size: 3em;
+}
+.abt-extra-page{
+  height: 30vh;
+}
+}
+@media only screen and (max-width: 430px) {
+  .sub-1 h1 {
+    font-size: 22.5px;
+  }
+  .num-left{
+    margin-left: 0;
+  }
+  .logo {
+    width: 80px;
+    height: 57px;
+    top: 0%;
+  }
+  .landing-img {
+    width: 100%;
+    height: 30vh;
+    padding: 0px 0px;
+  }
+  .img-2 {
+    height: 100%;
+    width: 100%;
+  }
+  .heading {
+    font-size: 21.5px;
+  }
+  p {
+    font-size: 14.5px;
+  }
+  .numbers{
+    font-size: 20px;
+  }
+  .gp h4{
+    font-size: 14px;
+  }
+  .proj-1{
+    display: none;
+  }
+  .proj-2{
+    display: block;
+    display: flex;
+  }
+  .gp{
+    margin-top: 10px;
+  }
+  .num{
+    padding-top:38%;
+  }
+  .sec-service-container{
+    padding: 0px;
+}
+.second-container-inner-row{
+    margin-top: 30px;
+    margin-left: 0;
+}
+.service-second-col-1 h5{
+    font-size: 17px;
+}
+.service-second-contain{
+    padding: 10px;
+}
+.service-second-container-in-col2{
+    padding-left: 0;
+}
+.service-second-container-in-col1{
+    padding-left: 0;
+}
+.team-land-head{
+  font-size: 3em;
+}
+.team-logo{
+  width: 60px;
+  margin-left: -30px;
+  margin-bottom: 10px;
+}
+.emp-head{
+  font-size: 1.5em;
+}
+.emp-container p{
+  font-size: 13px;
+}
+/* .service-second-col-2 h5{
+    text-align: center;
+    
+} */
+}
+@media only screen and (max-width: 375px) {
+  .landing-img {
+    width: 100%;
+    height: 30vh;
+    padding: 0px 0px;
+  }
+  .logo {
+    width: 70px;
+    height: 47px;
+    top: 5%;
+  }
+  .sub-1 h1 {
+    font-size: 20px;
+  }
+  .img-2 {
+    height: 100%;
+    width: 100%;
+  }
+  p{
+    font-size: 12px;
+  }
+  .num{
+    padding-top: 42%;
+  }
+  .num-left{
+    margin-left: 0;
+  }
+}

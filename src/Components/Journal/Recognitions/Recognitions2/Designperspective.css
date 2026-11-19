@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: bodyfont2;
+    src: url(../../../Fonts/DMSans-Medium.ttf);
+}
+@font-face {
+    font-family: myfont;
+    src: url(../../../Fonts/Cristola\ Display.ttf);
+}
+.inner-container-Designperspective2{
+    margin: 0 auto;
+    width: 99%;
+}
+.Designperspective-container2-col1{
+    font-family: myfont;
+    font-size: 50px;
+    font-weight: 500;
+}
+.Designperspective-container2-col2{
+    text-align: end;
+}
+.Designperspective-container2-col2 img{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   margin-right: 30px;
+}
+.inner-container-Designperspective2{
+    border-bottom: 2px solid black;
+}
+.inner-container-Designperspective3{
+    margin: 0 auto;
+    width: 99%;
+}
+.Designperspective-container3-col1{
+    /* border: 2px solid black; */
+}
+.Designperspective-container3-col1 img{
+    margin-top: 10px;
+    width: 100%;
+}
+.Designperspective-container3-col2 img{
+    width: 80%;
+ 
+}
+.Designperspective-container3-col2 p{
+         text-align: justify;
+         font-family: bodyfont2;
+}
+.journal-para{
+    font-family: bodyfont2;
+}
+/* ........................................................... Media Query ......................................  */
+@media only screen and (max-width:2560px){
+    .Designperspective-container2-col1{
+        font-family: myfont;
+        font-size: 100px;
+       margin: auto 0;
+    }
+  .tamil-language .Designperspective-container2-col1{
+        font-family: myfont;
+        font-size: 50px;
+       margin: auto 0;
+    }
+}
+@media only screen and (max-width:1600px){
+    .Designperspective-container2-col1{
+        font-family: myfont;
+        font-size: 80px;
+       margin: auto 0;
+    }
+}
+@media only screen and (max-width:821px){
+    .Designperspective-container2-col2 img{
+        width: 80%;
+    }
+    .Designperspective-container2-col1{
+         font-size: 50px;
+    }
+}
+@media only screen and (max-width:500px){
+    .Designperspective-container2-col1{
+        font-size: 20px;
+    }
+    .Designperspective-container2-col2 img{
+        width: 80%;
+    }
+    .Designperspective-container3-col2 p{
+        font-size: 14px;
+    }
+}
