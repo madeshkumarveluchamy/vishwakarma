@@ -3,7 +3,6 @@ import NavBar from '../../../Navbar/Navbar'
 import { Link } from 'react-router-dom';
 import './Foundersthought.css'
 import Foundersthought1 from './images/thoughts1.webp'
-import Foundersthought2 from './images/titleimage.png'
 import { useTranslation } from 'react-i18next'; 
 
 const Foundersthought = () => {

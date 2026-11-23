@@ -15,7 +15,7 @@ import { useTranslation } from 'react-i18next';
 
 
 const Societyinterior = () => {
-       const { t, i18n } = useTranslation('global')
+       const { t } = useTranslation('global')
   
   useEffect(() => {
     window.scrollTo(0, 0);

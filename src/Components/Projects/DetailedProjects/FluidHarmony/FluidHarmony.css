@@ -1,0 +1,320 @@
+@font-face {
+    font-family: myfont;
+    src: url(../../../Fonts/Cristola\ Display.otf);
+}
+@font-face {
+    font-family: bodyfont;
+    src: url(../../../Fonts/antebas\ medium.otf);
+}
+
+.fluid-harmony-container .project-custom-navbar .navbar-logo a,
+.fluid-harmony-container .project-custom-navbar .navbar-links a,
+.fluid-harmony-container .project-custom-navbar .navbar-toggle i {
+    color: #000000;
+}
+
+.fluid-harmony-container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* ----------------------------------------------------
+   SECTION 1: Row 1 - Image 1 (38% width) & Image 2 (62% width)
+   Identical Viewport Height
+---------------------------------------------------- */
+.fluid-harmony-container .detail-page {
+    width: 100%;
+    height: calc(100vh - 85px);
+    min-height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    padding: 0 !important;
+    margin-top: 20px;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.fluid-harmony-container .FluidHarmony1 {
+    flex: 0 0 calc(38% - 10px);
+    width: calc(38% - 10px);
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0;
+}
+
+.fluid-harmony-container .FluidHarmony2 {
+    flex: 0 0 calc(62% - 10px);
+    width: calc(62% - 10px);
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0;
+}
+
+/* ----------------------------------------------------
+   SECTION 2: Row 2 - Image 3 Full Width Panorama Banner (100vh Full Screen Height)
+---------------------------------------------------- */
+.fluid-harmony-container .second-container-detailpage-FluidHarmony {
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+    display: block;
+}
+
+/* ----------------------------------------------------
+   SECTION 3: Row 3 - Image 4 (38%), Image 5 (24% center), Image 6 (38%)
+   All 3 images share identical height
+---------------------------------------------------- */
+.fluid-harmony-container .detail-page-contain3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    padding: 0 !important;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.fluid-harmony-container .FluidHarmony4 {
+    flex: 0 0 calc(38% - 13px);
+    width: calc(38% - 13px);
+    height: 620px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0;
+}
+
+.fluid-harmony-container .FluidHarmony5 {
+    flex: 0 0 calc(24% - 14px);
+    width: calc(24% - 14px);
+    height: 620px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0;
+}
+
+.fluid-harmony-container .FluidHarmony6 {
+    flex: 0 0 calc(38% - 13px);
+    width: calc(38% - 13px);
+    height: 620px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0;
+}
+
+/* ----------------------------------------------------
+   SECTION 4: Project Info Section (Aligned as per Veedu 1 & Veedu 4)
+---------------------------------------------------- */
+.fluid-harmony-container .info-contain {
+    /* Follows standard container-fluid grid matching Veedu 1 & Veedu 4 */
+}
+
+.fluid-harmony-container .detailproject-col {
+    font-family: bodyfont;
+}
+
+.fluid-harmony-container .detailproject-col h2 {
+    font-family: bodyfont;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #000000;
+}
+
+.fluid-harmony-container .detailproject-col h6 {
+    font-family: bodyfont;
+    font-size: 15px;
+    margin-top: 15px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.fluid-harmony-container .detailproject-col h6 span.specialcharacter {
+    margin: 0 6px;
+    color: #000000;
+}
+
+.fluid-harmony-container .detailproject-col p {
+    font-family: bodyfont;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 15px;
+    font-weight: 100;
+    color: #000000;
+}
+
+/* ----------------------------------------------------
+   SECTION 5: Other Projects Section (Aligned as per Veedu 1 & Veedu 4)
+---------------------------------------------------- */
+.fluid-harmony-container .otherprojects-contain {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.fluid-harmony-container .other-head {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: bodyfont;
+    display: flex;
+    align-items: center;
+    color: #111;
+}
+
+.fluid-harmony-container .plus-img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.fluid-harmony-container .otherprojects {
+    text-align: center;
+}
+
+.fluid-harmony-container .otherprojects a {
+    display: block;
+    overflow: hidden;
+}
+
+.fluid-harmony-container .otherprojects .other-project-img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.fluid-harmony-container .otherprojects:hover .other-project-img {
+    transform: scale(1.04);
+}
+
+/* ----------------------------------------------------
+   RESPONSIVE MEDIA QUERIES
+---------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    .fluid-harmony-container .detail-page {
+        height: calc(100vh - 75px);
+        min-height: 550px;
+    }
+    .fluid-harmony-container .second-container-detailpage-FluidHarmony {
+        height: 85vh;
+        min-height: 550px;
+    }
+    .fluid-harmony-container .FluidHarmony4,
+    .fluid-harmony-container .FluidHarmony5,
+    .fluid-harmony-container .FluidHarmony6 {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .fluid-harmony-container .detail-page {
+        height: auto;
+        min-height: auto;
+        padding: 0 !important;
+        gap: 12px;
+    }
+    .fluid-harmony-container .detail-page-contain3 {
+        padding: 0 !important;
+        gap: 12px;
+    }
+    .fluid-harmony-container .FluidHarmony1 {
+        flex: 0 0 calc(38% - 6px);
+        width: calc(38% - 6px);
+        height: 420px;
+    }
+    .fluid-harmony-container .FluidHarmony2 {
+        flex: 0 0 calc(62% - 6px);
+        width: calc(62% - 6px);
+        height: 420px;
+    }
+    .fluid-harmony-container .second-container-detailpage-FluidHarmony {
+        height: 60vh;
+        min-height: 380px;
+        margin: 16px 0;
+    }
+    .fluid-harmony-container .FluidHarmony4 {
+        flex: 0 0 calc(38% - 8px);
+        width: calc(38% - 8px);
+        height: 420px;
+    }
+    .fluid-harmony-container .FluidHarmony5 {
+        flex: 0 0 calc(24% - 8px);
+        width: calc(24% - 8px);
+        height: 420px;
+    }
+    .fluid-harmony-container .FluidHarmony6 {
+        flex: 0 0 calc(38% - 8px);
+        width: calc(38% - 8px);
+        height: 420px;
+    }
+    .fluid-harmony-container .otherprojects .other-project-img {
+        height: 360px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fluid-harmony-container .detail-page {
+        height: auto;
+        flex-direction: column;
+        padding: 0 !important;
+        gap: 12px;
+    }
+    .fluid-harmony-container .FluidHarmony1,
+    .fluid-harmony-container .FluidHarmony2 {
+        width: 100%;
+        flex: 1 1 100%;
+        height: auto;
+        max-height: 450px;
+    }
+    .fluid-harmony-container .second-container-detailpage-FluidHarmony {
+        height: 50vh;
+        min-height: 280px;
+        margin: 12px 0;
+    }
+    .fluid-harmony-container .detail-page-contain3 {
+        flex-direction: column;
+        padding: 0 !important;
+        gap: 12px;
+    }
+    .fluid-harmony-container .FluidHarmony4,
+    .fluid-harmony-container .FluidHarmony5,
+    .fluid-harmony-container .FluidHarmony6 {
+        width: 100%;
+        flex: 1 1 100%;
+        height: auto;
+        max-height: 480px;
+    }
+    .fluid-harmony-container .detailproject-col h2 {
+        font-size: 20px;
+    }
+    .fluid-harmony-container .detailproject-col h6 {
+        font-size: 12px;
+    }
+    .fluid-harmony-container .detailproject-col p {
+        font-size: 12px;
+    }
+    .fluid-harmony-container .other-head {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .fluid-harmony-container .otherprojects .other-project-img {
+        height: 360px;
+    }
+}

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { galleryItems } from '../../Gallery';
 import './Ksir.css';
 import NavBar from '../../../Navbar/Navbar';
 import Ksir1 from '../DetailProjectpageImages/Ksir1.webp'
@@ -18,7 +17,6 @@ import Ksir12 from '../DetailProjectpageImages/Ksir12.webp';
 import Ksir13 from '../DetailProjectpageImages/Ksir13.webp';
 import Ksir14 from '../DetailProjectpageImages/Ksir14.webp';
 import Ksir15 from '../DetailProjectpageImages/Ksir15.webp';
-import Ksir16 from '../DetailProjectpageImages/Ksir16.webp';
 
 import otherproject1 from '../../Project-images/P10.webp'
 import otherproject2 from '../../Project-images/P19.webp'
@@ -31,7 +29,6 @@ import Carousel from 'react-bootstrap/Carousel';
 const Ksir = () => {
   const { t} = useTranslation('global');
     const { id } = useParams();
-    const project = galleryItems.find(item => item.id === parseInt(id, 10));
     
     useEffect(() => {
       window.scrollTo(0, 0);

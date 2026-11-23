@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { galleryItems } from '../../Gallery';
 import './Ishaschool.css';
 import NavBar from '../../../Navbar/Navbar';
 import isha1 from '../DetailProjectpageImages/isha1.webp';
@@ -17,7 +16,6 @@ import { useTranslation } from 'react-i18next';
 const Ishaschool = () => {
   const { t} = useTranslation('global');
     const { id } = useParams();
-    const project = galleryItems.find(item => item.id === parseInt(id, 10));
     
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -62,13 +60,13 @@ const Ishaschool = () => {
         <div className="row otherproject-row justify-content-start mt-2">
          
             <div className="col-10 col-sm-10 col-md-4 col-xl-4 otherprojects">
-                <Link to="/project/21"><img className='other-project-img' src={otherproject1}  /> </Link>
+                <Link to="/project/21"><img className='other-project-img' src={otherproject1} alt="Project 21" /> </Link>
             </div>
             <div className="col-10 col-sm-10 col-md-4 col-xl-4 otherprojects">
-            <Link to="/project/22"><img className='other-project-img' src={otherproject2}  /> </Link>
+            <Link to="/project/22"><img className='other-project-img' src={otherproject2} alt="Project 22" /> </Link>
             </div>
             <div className="col-10 col-sm-10 col-md-4 col-xl-4 otherprojects">
-            <Link to="/project/2"><img className='other-project-img' src={otherproject3}  /> </Link>
+            <Link to="/project/2"><img className='other-project-img' src={otherproject3} alt="Project 2" /> </Link>
             </div>
          
         </div>

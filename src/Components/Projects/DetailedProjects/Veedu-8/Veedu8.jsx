@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { galleryItems } from '../../Gallery';
 import './Veedu8.css';
 import NavBar from '../../../Navbar/Navbar';
 import Veedu81 from '../DetailProjectpageImages/veedu8-1.webp';
@@ -19,7 +18,6 @@ const Veedu8 = () => {
   const { t} = useTranslation('global');
 
     const { id } = useParams();
-    const project = galleryItems.find(item => item.id === parseInt(id, 10));
     
     useEffect(() => {
       window.scrollTo(0, 0);

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { galleryItems } from '../../Gallery';
 import './Actcall.css';
 import NavBar from '../../../Navbar/Navbar';
 import Actcal1 from '../DetailProjectpageImages/Act1.webp';
@@ -17,7 +16,6 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 const Actcall = () => {
   const { t } = useTranslation('global');
   const { id } = useParams();
-  const project = galleryItems.find(item => item.id === parseInt(id, 10));
 
   useEffect(() => {
     window.scrollTo(0, 0);

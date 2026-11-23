@@ -16,7 +16,7 @@ import insideout10 from './images/Qwicksoft-Inside Outside-Residence0010.webp'
 import { useTranslation } from 'react-i18next'; 
 
 const Insideout = () => {
-       const { t, i18n } = useTranslation('global');
+       const { t } = useTranslation('global');
     
   useEffect(() => {
     window.scrollTo(0, 0);

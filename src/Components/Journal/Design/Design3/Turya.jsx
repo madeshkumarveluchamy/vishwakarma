@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import './Turya.css'
 import Turya1 from './Images/Turya logo (1).webp'
 import Turya2 from './Images/Chairs (1).webp'
-import Turya3 from './Images/Chairs (2).webp'
 import Turya4 from './Images/poster 3x3 2.webp'
 import Turya5 from './Images/poster.webp'
 import { useTranslation } from 'react-i18next'; 

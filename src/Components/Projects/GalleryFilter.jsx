@@ -1,7 +1,6 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+
 const GalleryFilter = ({ filters, selectedFilter, onSelectFilter }) => {
-  const { t} = useTranslation('global');
   return (
     <div className="gallery-filter">
       {filters.map(filter => (

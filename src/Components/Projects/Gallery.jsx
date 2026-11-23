@@ -1,4 +1,4 @@
-import React, { lazy, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import GalleryFilter from './GalleryFilter';
 import './Gallery.css';
@@ -14,7 +14,7 @@ import Project9 from './Project-images/P9.webp';
 import Project10 from './DetailedProjects/DetailProjectpageImages/nalanda.webp';
 import Project11 from './Project-images/P11.webp';
 import Project12 from './Project-images/P12.webp';
-import Project13 from './Project-images/P13.webp';
+// import Project13 from './Project-images/P13.webp';
 import Project14 from './Project-images/P14.webp';
 import Project15 from './Project-images/donut-saibaba-key.webp';
 import Project16 from './Project-images/P16.webp';
@@ -33,7 +33,7 @@ import Project28 from './DetailedProjects/DetailProjectpageImages/Beryl3.webp';
 import Project29 from './Project-images/P29.webp';
 import Project30 from './DetailedProjects/DetailProjectpageImages/cottonblossomkey.webp';
 import Project31 from './DetailedProjects/DetailProjectpageImages/Isaiveedu3.webp';
-import Project32 from './Project-images/P32.webp';
+// import Project32 from './Project-images/P32.webp';
 import Project33 from './DetailedProjects/DetailProjectpageImages/oculuskey.webp';
 import Project34 from './DetailedProjects/DetailProjectpageImages/sepiahouse.webp';
 import Project35 from './Project-images/P35.webp';
@@ -66,6 +66,10 @@ import Project61 from './DetailedProjects/DetailProjectpageImages/vasavikey.webp
 import Project62 from './Project-images/P62.webp';
 import Project63 from './DetailedProjects/DetailProjectpageImages/Ksir3.webp'
 import Project64 from './DetailedProjects/DetailProjectpageImages/balledoftime3.webp'
+import Project65 from './Project-images/A-Modern-Sanctuary/A-Modern-Sanctuary (1).webp'
+import Project66 from './Project-images/Stacked House/STACKED HOUSE (1).webp'
+import Project67 from './Project-images/Fluid Harmony/Fluid Harmony (2).webp'
+import Project68 from './Project-images/Veedu #9/Veedu 9 (5).webp'
 
 import { useTranslation } from 'react-i18next';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -85,6 +89,10 @@ const galleryItems = [
   { id: 9, category: 'INSTUTIONAL', name:"Spring Mount School", LazyLoadImage: Project9, loading:"lazy" },
   { id: 63, category: 'INSTUTIONAL', name:"KSIRS School", LazyLoadImage: Project63, loading:"lazy" },
 
+  { id: 65, category: 'RESIDENTIAL', name:"A Modern Sanctuary", LazyLoadImage: Project65, loading:"lazy" },
+  { id: 66, category: 'RESIDENTIAL', name:"Stacked House", LazyLoadImage: Project66, loading:"lazy" },
+  { id: 67, category: 'RESIDENTIAL', name:"Fluid Harmony", LazyLoadImage: Project67, loading:"lazy" },
+  { id: 68, category: 'RESIDENTIAL', name:"Veedu #9", LazyLoadImage: Project68, loading:"lazy" },
   { id: 3, category: 'RESIDENTIAL', name:"Summer House", LazyLoadImage: Project3, loading:"lazy" },
   { id: 4, category: 'RESIDENTIAL', name:"Color House", LazyLoadImage: Project4, loading:"lazy" },
   { id: 5, category: 'RESIDENTIAL', name:"Yarn House", LazyLoadImage: Project5, loading:"lazy" },
@@ -185,7 +193,11 @@ const Gallery = () => {
         {filteredItems.map(item => (
           <div key={item.id} className="gallery-item">
             <Link to={`/project/${item.id}`}>
-              <LazyLoadImage src={item.LazyLoadImage} alt={item.category} />
+              <LazyLoadImage
+                src={item.LazyLoadImage}
+                alt={item.name || item.category}
+                threshold={400}
+              />
             </Link>
           </div>
         ))}

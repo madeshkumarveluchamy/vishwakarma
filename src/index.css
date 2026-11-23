@@ -1,5 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+  overflow-y: auto;
+  position: relative;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +21,528 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  overflow: visible !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* ========================================================
+   GLOBAL PROJECT DETAIL PAGE LAYOUT TEMPLATE
+   Ensures seamless responsive layout across ALL screen sizes
+   (MacBook screens 13"-16", 1080p, 2K, 4K, Tablet, Mobile)
+   Exact Template Design:
+   Row 1: Image 1 (38%) + Image 2 (62%) side-by-side
+   Row 2: Image 3 (100% full width hero banner)
+   Row 3: Image 4 (38%) + Image 5 (24% center) + Image 6 (38%) side-by-side
+======================================================== */
+
+/* --- SECTION 1: Row 1 (Image 1 & Image 2) --- */
+.detail-page {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: calc(100vh - 85px) !important;
+  min-height: 600px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: stretch !important;
+  gap: 20px !important;
+  padding: 0 !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  box-sizing: border-box !important;
+  clear: both !important;
+  overflow: hidden !important;
+}
+
+.detail-page > *:nth-child(1),
+.detail-page > *:first-child {
+  flex: 0 0 calc(38% - 10px) !important;
+  width: calc(38% - 10px) !important;
+  max-width: calc(38% - 10px) !important;
+  min-width: 0 !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: none !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  display: block !important;
+}
+
+.detail-page > *:nth-child(2),
+.detail-page > *:last-child {
+  flex: 0 0 calc(62% - 10px) !important;
+  width: calc(62% - 10px) !important;
+  max-width: calc(62% - 10px) !important;
+  min-width: 0 !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: none !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  display: block !important;
+}
+
+.detail-page img,
+.detail-page span,
+.detail-page .lazy-load-image-background {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block !important;
+  margin: 0 !important;
+  float: none !important;
+}
+
+/* --- SECTION 2: Row 2 (Image 3 Full-Width Banner) --- */
+div[class*="second-container-detailpage"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 100vh !important;
+  min-height: 600px !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  clear: both !important;
+  display: block !important;
+  box-sizing: border-box !important;
+}
+
+/* --- SECTION 3: Row 3 (Image 4, Image 5, Image 6) --- */
+.detail-page-contain3 {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: stretch !important;
+  gap: 20px !important;
+  padding: 0 !important;
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+  box-sizing: border-box !important;
+  clear: both !important;
+  overflow: hidden !important;
+}
+
+.detail-page-contain3 > *:nth-child(1) {
+  flex: 0 0 calc(38% - 13.33px) !important;
+  width: calc(38% - 13.33px) !important;
+  max-width: calc(38% - 13.33px) !important;
+  min-width: 0 !important;
+  height: 620px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: none !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  display: block !important;
+}
+
+.detail-page-contain3 > *:nth-child(2) {
+  flex: 0 0 calc(24% - 13.33px) !important;
+  width: calc(24% - 13.33px) !important;
+  max-width: calc(24% - 13.33px) !important;
+  min-width: 0 !important;
+  height: 620px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: none !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  display: block !important;
+}
+
+.detail-page-contain3 > *:nth-child(3) {
+  flex: 0 0 calc(38% - 13.33px) !important;
+  width: calc(38% - 13.33px) !important;
+  max-width: calc(38% - 13.33px) !important;
+  min-width: 0 !important;
+  height: 620px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: none !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  display: block !important;
+}
+
+.detail-page-contain3 img,
+.detail-page-contain3 span,
+.detail-page-contain3 .lazy-load-image-background {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block !important;
+  margin: 0 !important;
+  float: none !important;
+}
+
+/* Fix legacy .detailproject-col margin leakage */
+.info-contain .detailproject-col {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.info-contain .row.justify-content-center,
+.info-contain .row.justify-content-end {
+  display: flex !important;
+  justify-content: flex-end !important;
+  padding-right: 5vw !important;
+  box-sizing: border-box !important;
+}
+
+/* Extra Large Screens (min-width: 1800px) */
+@media only screen and (min-width: 1800px) {
+  .detail-page {
+    height: calc(100vh - 100px) !important;
+    min-height: 700px !important;
+  }
+  div[class*="second-container-detailpage"] {
+    height: 100vh !important;
+    min-height: 700px !important;
+  }
+  .detail-page-contain3 > *:nth-child(1),
+  .detail-page-contain3 > *:nth-child(2),
+  .detail-page-contain3 > *:nth-child(3) {
+    height: 720px !important;
+  }
+}
+
+/* Medium-large Screens / Tablets Landscape (993px - 1199px) */
+@media only screen and (max-width: 1199px) and (min-width: 993px) {
+  .detail-page {
+    gap: 14px !important;
+    height: 560px !important;
+    min-height: 500px !important;
+  }
+  .detail-page > *:nth-child(1) {
+    flex: 0 0 calc(38% - 7px) !important;
+    width: calc(38% - 7px) !important;
+    max-width: calc(38% - 7px) !important;
+  }
+  .detail-page > *:nth-child(2) {
+    flex: 0 0 calc(62% - 7px) !important;
+    width: calc(62% - 7px) !important;
+    max-width: calc(62% - 7px) !important;
+  }
+  div[class*="second-container-detailpage"] {
+    height: 80vh !important;
+    min-height: 500px !important;
+  }
+  .detail-page-contain3 {
+    gap: 14px !important;
+  }
+  .detail-page-contain3 > *:nth-child(1) {
+    flex: 0 0 calc(38% - 9.33px) !important;
+    width: calc(38% - 9.33px) !important;
+    max-width: calc(38% - 9.33px) !important;
+    height: 500px !important;
+  }
+  .detail-page-contain3 > *:nth-child(2) {
+    flex: 0 0 calc(24% - 9.33px) !important;
+    width: calc(24% - 9.33px) !important;
+    max-width: calc(24% - 9.33px) !important;
+    height: 500px !important;
+  }
+  .detail-page-contain3 > *:nth-child(3) {
+    flex: 0 0 calc(38% - 9.33px) !important;
+    width: calc(38% - 9.33px) !important;
+    max-width: calc(38% - 9.33px) !important;
+    height: 500px !important;
+  }
+}
+
+/* Tablet Screens (769px - 992px) */
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .detail-page {
+    height: auto !important;
+    min-height: auto !important;
+    gap: 12px !important;
+  }
+  .detail-page > *:nth-child(1) {
+    flex: 0 0 calc(38% - 6px) !important;
+    width: calc(38% - 6px) !important;
+    max-width: calc(38% - 6px) !important;
+    height: 420px !important;
+  }
+  .detail-page > *:nth-child(2) {
+    flex: 0 0 calc(62% - 6px) !important;
+    width: calc(62% - 6px) !important;
+    max-width: calc(62% - 6px) !important;
+    height: 420px !important;
+  }
+  div[class*="second-container-detailpage"] {
+    height: 60vh !important;
+    min-height: 380px !important;
+    margin: 16px 0 !important;
+  }
+  .detail-page-contain3 {
+    gap: 12px !important;
+  }
+  .detail-page-contain3 > *:nth-child(1) {
+    flex: 0 0 calc(38% - 8px) !important;
+    width: calc(38% - 8px) !important;
+    max-width: calc(38% - 8px) !important;
+    height: 420px !important;
+  }
+  .detail-page-contain3 > *:nth-child(2) {
+    flex: 0 0 calc(24% - 8px) !important;
+    width: calc(24% - 8px) !important;
+    max-width: calc(24% - 8px) !important;
+    height: 420px !important;
+  }
+  .detail-page-contain3 > *:nth-child(3) {
+    flex: 0 0 calc(38% - 8px) !important;
+    width: calc(38% - 8px) !important;
+    max-width: calc(38% - 8px) !important;
+    height: 420px !important;
+  }
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .detail-page {
+    height: auto !important;
+    min-height: auto !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+  }
+  .detail-page > *:nth-child(1),
+  .detail-page > *:nth-child(2) {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 1 1 100% !important;
+    height: auto !important;
+    max-height: 450px !important;
+    margin: 0 !important;
+  }
+  div[class*="second-container-detailpage"] {
+    height: 50vh !important;
+    min-height: 280px !important;
+    margin: 12px 0 !important;
+  }
+  .detail-page-contain3 {
+    flex-direction: column !important;
+    gap: 12px !important;
+    margin-top: 12px !important;
+    margin-bottom: 24px !important;
+  }
+  .detail-page-contain3 > *:nth-child(1),
+  .detail-page-contain3 > *:nth-child(2),
+  .detail-page-contain3 > *:nth-child(3) {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 1 1 100% !important;
+    height: auto !important;
+    max-height: 480px !important;
+    margin: 0 !important;
+  }
+
+  .info-contain .row.justify-content-center,
+  .info-contain .row.justify-content-end {
+    justify-content: center !important;
+    padding-right: 0 !important;
+  }
+}
+
+/* ========================================================
+   GLOBAL "OTHER PROJECTS" SECTION LAYOUT (Template Image 3)
+   Fixes height mismatch, alignment, and clipping across all projects
+======================================================== */
+
+.otherprojects-contain {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: auto !important;
+  margin-top: 80px !important;
+  margin-bottom: 0 !important;
+  padding: 0 40px !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+.otherprojects-contain .other-head {
+  display: flex !important;
+  align-items: center !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 24px !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  font-family: bodyfont, sans-serif !important;
+  color: #111 !important;
+  width: 100% !important;
+  text-align: left !important;
+}
+
+.otherprojects-contain .other-head .plus-img {
+  width: 24px !important;
+  height: 24px !important;
+  margin-right: 12px !important;
+  margin-left: 0 !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+.otherprojects-contain .otherproject-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-start !important;
+  margin-left: -12px !important;
+  margin-right: -12px !important;
+  row-gap: 24px !important;
+  width: calc(100% + 24px) !important;
+  max-width: calc(100% + 24px) !important;
+  box-sizing: border-box !important;
+}
+
+.otherprojects-contain .otherprojects {
+  flex: 0 0 33.333333% !important;
+  max-width: 33.333333% !important;
+  width: 33.333333% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+  text-align: center !important;
+}
+
+.otherprojects-contain .otherprojects a {
+  display: block !important;
+  width: 100% !important;
+  height: 480px !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.otherprojects-contain .otherprojects img,
+.otherprojects-contain .otherprojects .other-project-img,
+.otherprojects-contain .other-project-img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 480px !important;
+  min-height: 480px !important;
+  max-height: 480px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block !important;
+  margin: 0 auto !important;
+  transition: transform 0.4s ease !important;
+  box-sizing: border-box !important;
+}
+
+.otherprojects-contain .otherprojects:hover img,
+.otherprojects-contain .otherprojects:hover .other-project-img {
+  transform: scale(1.04) !important;
+}
+
+/* Wide desktop screens (min-width: 1400px) */
+@media only screen and (min-width: 1400px) {
+  .otherprojects-contain .otherprojects a {
+    height: 520px !important;
+  }
+
+  .otherprojects-contain .otherprojects img,
+  .otherprojects-contain .otherprojects .other-project-img,
+  .otherprojects-contain .other-project-img {
+    height: 520px !important;
+    min-height: 520px !important;
+    max-height: 520px !important;
+  }
+}
+
+/* Tablet screens (max-width: 992px) */
+@media only screen and (max-width: 992px) {
+  .otherprojects-contain {
+    padding: 0 24px !important;
+    margin-top: 60px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .otherprojects-contain .other-head {
+    font-size: 24px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .otherprojects-contain .otherprojects a,
+  .otherprojects-contain .otherprojects img,
+  .otherprojects-contain .otherprojects .other-project-img,
+  .otherprojects-contain .other-project-img {
+    height: 360px !important;
+    min-height: 360px !important;
+    max-height: 360px !important;
+  }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .otherprojects-contain {
+    padding: 0 16px !important;
+    margin-top: 40px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .otherprojects-contain .other-head {
+    font-size: 20px !important;
+    margin-bottom: 16px !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .otherprojects-contain .otherproject-row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    row-gap: 20px !important;
+    justify-content: center !important;
+  }
+
+  .otherprojects-contain .otherprojects {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .otherprojects-contain .otherprojects a,
+  .otherprojects-contain .otherprojects img,
+  .otherprojects-contain .otherprojects .other-project-img,
+  .otherprojects-contain .other-project-img {
+    height: 360px !important;
+    min-height: 360px !important;
+    max-height: 360px !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
 }

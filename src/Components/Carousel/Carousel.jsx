@@ -12,7 +12,7 @@ import NavBar from '../Navbar/Navbar';
 import { useTranslation } from 'react-i18next';
 
 const Carousel = () => {
-  const { t, i18n } = useTranslation('global'); 
+  const { i18n } = useTranslation('global'); 
 
   const changeLang = (lang) => {
     i18n.changeLanguage(lang);
@@ -108,8 +108,8 @@ const Carousel = () => {
         </button>
       </div>
       <div className="language-options">
-        <a href="#" onClick={() => changeLang('en')}>Eng</a>|
-        <a href="#" onClick={() => changeLang('ta')}>தமிழ்</a>
+        <a href="#en" onClick={(e) => { e.preventDefault(); changeLang('en'); }}>Eng</a>|
+        <a href="#ta" onClick={(e) => { e.preventDefault(); changeLang('ta'); }}>தமிழ்</a>
       </div>
       <div className="social-media-icons">
         <a href="https://www.facebook.com/p/Vishwakarma-Design-Studio-100064057144718/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>

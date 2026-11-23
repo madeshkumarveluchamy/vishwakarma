@@ -8,7 +8,7 @@ import Genusloci3 from './images/WE_P3955 1.png'
 import { useTranslation } from 'react-i18next'; 
 
 const Genusloci = () => {
-    const { t, i18n } = useTranslation('global');
+    const { t } = useTranslation('global');
 
   useEffect(() => {
     window.scrollTo(0, 0);

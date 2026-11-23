@@ -11,7 +11,7 @@ import interiorexterior25 from './images/SUMMER HOUSE-5.webp'
 import { useTranslation } from 'react-i18next'; 
 
 const Interiorexterior2 = () => {
-      const { t, i18n } = useTranslation('global');
+      const { t } = useTranslation('global');
 
   useEffect(() => {
     window.scrollTo(0, 0);

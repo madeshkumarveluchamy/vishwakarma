@@ -3,12 +3,10 @@ import NavBar from '../../../Navbar/Navbar'
 import { Link } from 'react-router-dom';
 import './Foaid.css'
 import Foaid1 from './images/IMG_0345.jpg'
-import Foaid2 from './images/IMG_0336.png'
-import Foaid3 from './images/IMG_0113.jpg'
 import { useTranslation } from 'react-i18next'; 
 
 const Foaid = () => {
-    const { t, i18n } = useTranslation('global');
+    const { t } = useTranslation('global');
   
   useEffect(() => {
     window.scrollTo(0, 0);

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { galleryItems } from '../../Gallery';
 import './Treehouse.css';
 import NavBar from '../../../Navbar/Navbar';
 import Treehouse1 from '../DetailProjectpageImages/Treeoflife1.webp';
@@ -19,7 +18,6 @@ const Treehouse = () => {
   const { t } = useTranslation('global');
 
     const { id } = useParams();
-    const project = galleryItems.find(item => item.id === parseInt(id, 10));
     
     useEffect(() => {
       window.scrollTo(0, 0);

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { galleryItems } from '../../Gallery';
 import './Sks.css';
 import NavBar from '../../../Navbar/Navbar';
 import Sks1 from '../DetailProjectpageImages/Attangudi1.webp';
@@ -18,7 +17,6 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 const Sks = () => {
   const { t} = useTranslation('global');
     const { id } = useParams();
-    const project = galleryItems.find(item => item.id === parseInt(id, 10));
     
     useEffect(() => {
       window.scrollTo(0, 0);

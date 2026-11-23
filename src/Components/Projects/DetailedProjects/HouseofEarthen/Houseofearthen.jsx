@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { galleryItems } from '../../Gallery';
 import './Houseofearthen.css';
 import NavBar from '../../../Navbar/Navbar';
 import hoe1 from '../DetailProjectpageImages/hoe1.webp';
@@ -18,7 +17,6 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 const Houseofearthen = () => {
   const { t} = useTranslation('global');
     const { id } = useParams();
-    const project = galleryItems.find(item => item.id === parseInt(id, 10));
     
     useEffect(() => {
       window.scrollTo(0, 0);

@@ -2,7 +2,6 @@ import React, { useEffect }  from 'react'
 import NavBar from '../../../Navbar/Navbar'
 import { Link } from 'react-router-dom';
 import './Artisanaldesign.css'
-import Artisanaldesign1 from './Images/ka063 (1).webp'
 import Artisanaldesign2 from './Images/WE_P0247.jpg'
 import Artisanaldesign3 from './Images/_DSC8410.webp'
 import Artisanaldesign4 from './Images/ka073 (1).webp'

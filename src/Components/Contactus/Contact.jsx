@@ -4,14 +4,14 @@ import './Contact.css';
 // import ic2 from'./Contact-images/mail.png'
 // import ic3 from'./Contact-images/fb.png'
 import NavBar from '../Navbar/Navbar';
-import map from './Contact-images/map.png'
+import map from './Contact-images/map.png';
 import { useTranslation } from 'react-i18next';
 
-
 const Contact = () => {
-  const { t} = useTranslation('global');
+  const { t } = useTranslation('global');
+
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid contact-page-wrapper'>
        <NavBar className="contact-custom-navbar" />
       <div className='contactus-main-container'>
         <h1 className='main-head'>{t('VISHWAKARMA')}</h1>
@@ -20,7 +20,7 @@ const Contact = () => {
         <div className='col-12 col-sm-12 col-md-4 col-xxl-4  box-1'>
           <div className='border-bottom-2 border-dark'><h4 className='Heading-1'>{t('location')}</h4></div>
           <div className='rect'>
-           <a blank href="https://www.google.com/maps/place/Vishwakarma+Design+Studio+%26+Turya+Designs/@10.9677288,76.8888575,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba85e9ddda046d7:0xee35f9079bcf854e!8m2!3d10.9677288!4d76.8888575!16s%2Fg%2F11clys_8nr?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"> <img className='map' src={map} alt="" srcset="" /></a>
+           <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Vishwakarma+Design+Studio+%26+Turya+Designs/@10.9677288,76.8888575,17z/data=!3m1!4b1!4m6!3m5!1s0x3ba85e9ddda046d7:0xee35f9079bcf854e!8m2!3d10.9677288!4d76.8888575!16s%2Fg%2F11clys_8nr?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"> <img className='map' src={map} alt="Vishwakarma Location Map" /></a>
           </div>
         </div>
         <div className='col-12 col-sm-12 col-md-8 col-xxl-8  contact-info border-dark'>

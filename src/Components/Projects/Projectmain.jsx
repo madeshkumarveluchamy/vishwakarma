@@ -1,37 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './Projectmain.css';
 import NavBar from '../Navbar/Navbar';
 import Gallery from './Gallery';
 import { useTranslation } from 'react-i18next';
-import { galleryItems } from './Gallery'; 
 // import { Link } from 'react-router-dom'; 
 
-import './Searchbar/SearchBar.css'
+import './Searchbar/SearchBar.css';
 import SearchBar from './Searchbar/SearchBar';
+
 const Projectmain = () => {
   const { t } = useTranslation('global');
-  const [searchTerm, setSearchTerm] = useState('');
-  const [filteredProjects, setFilteredProjects] = useState([]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  // Handle search input changes
-  const handleSearchChange = (event) => {
-    const searchValue = event.target.value;
-    setSearchTerm(searchValue);
-
-    if (searchValue !== '') {
-      // Filter projects where the name starts with the search term (case-insensitive)
-      const filtered = galleryItems.filter(project =>
-        project.name.toLowerCase().startsWith(searchValue.toLowerCase())
-      );
-      setFilteredProjects(filtered);
-    } else {
-      setFilteredProjects([]);
-    }
-  };
   // const [isSearchVisible, setIsSearchVisible] = useState(false);
 
   // const handleSearchToggle = () => {

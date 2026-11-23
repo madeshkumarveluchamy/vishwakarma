@@ -5,7 +5,6 @@ import './Materiality.css'
 import Materiality1 from './images/_DSC8494.webp'
 import Materiality2 from './images/_DSC8497 1.jpg'
 import Materiality3 from './images/_DSC8559.jpg'
-import Materiality4 from './images/_DSC8757.webp'
 import { useTranslation } from 'react-i18next'
 
 const Materiality = () => {

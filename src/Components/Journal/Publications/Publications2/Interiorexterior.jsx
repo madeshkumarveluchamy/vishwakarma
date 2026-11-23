@@ -11,7 +11,7 @@ import interiorexterior5 from './images/VISHWAKARMA DESIGN STUDIO-5.webp'
 import { useTranslation } from 'react-i18next'; 
 
 const Interiorexterior = () => {
-      const { t, i18n } = useTranslation('global');
+      const { t } = useTranslation('global');
   
   useEffect(() => {
     window.scrollTo(0, 0);

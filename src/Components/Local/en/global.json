@@ -586,6 +586,35 @@
     "balledoftime-para2":"Our chief architect, Karthikeyan took inspiration from the play of levels and courtyards present in traditional Tamizh architecture and designed the new residence with elements of space that intersect with light, volume and steps to create an inspired residence.",
     "balledoftime-Location":"Tamil Nadu.",
 
+    "amodernsanctuary":"A MODERN SANCTUARY",
+    "amodernsanctuary-typology":"RESIDENCE",
+    "amodernsanctuary-year":"2025",
+    "amodernsanctuary-area":"2,800 sq ft",
+    "amodernsanctuary-Location":"Tamil Nadu",
+    "amodernsanctuary-para":"A Modern Sanctuary is a cozy apartment in the heart of Coimbatore for a family of four, with a modern design, complete with all amenities and comfort. A true modern sanctuary.",
+
+    "stackedhouse":"STACKED HOUSE",
+    "stackedhouse-typology":"RESIDENCE",
+    "stackedhouse-year":"2025",
+    "stackedhouse-area":"9,000 sq ft",
+    "stackedhouse-Location":"Tamil Nadu",
+    "stackedhouse-para1":"The Layered house is a residential project nestled in the suburbs of Tamil Nadu, blending modern comfort and celebrating artistic Indian craftsmanship. The house is layered spatially, seamlessly blending the natural and built environments making it the perfect home for the family of four. The spatial planning involved stacking programs beside one another, with blurring the spaces to create a layered flow allowing the space to unfold. The clubhouse presents the opportunity to experience the natural environment and enter a relaxing atmosphere to entertain and host, complete with bedrooms and a pool.",
+    "stackedhouse-para2":"Each room is designed and customized with design elements that weave the narrative of the house. Indian craftsmanship is showcased throughout the building, from the main door carved from wood, with brass motif tiles to a clay sculpture that spans across the balcony, handcrafted in the northern part of India. Leaves found near the local site were pressed into the walls to create imprints and the central pooja (prayer room) is wrapped with a traditional painting, depicting motifs depicted in temples. The house is a testimony to celebrating traditional Indian craftsmanship and will hold witness to the people who live there as well as the craft.",
+
+    "fluidharmony":"FLUID HARMONY",
+    "fluidharmony-typology":"RESIDENCE",
+    "fluidharmony-year":"2025",
+    "fluidharmony-area":"6,000 sq ft",
+    "fluidharmony-Location":"Tamil Nadu",
+    "fluidharmony-para":"This is a residence nestled in the suburbs of Coimbatore with the glorious Western Ghats as the backdrop. It is designed and constructed by Vishwakarma Design Studio, in our classic courtyard style - which Karthikeyan, our founder and principal architect coins together subtly in aesthetics and functionality. The residence is furnished with warm tones of polished wood, all designed and made in our studio, in Coimbatore and we designed each room and space with clarity, functionality and the clients tastes.",
+
+    "veedu9":"VEEDU #9",
+    "veedu9-typology":"RESIDENCE",
+    "veedu9-year":"2025",
+    "veedu9-area":"4,000 sq ft",
+    "veedu9-Location":"Tamil Nadu",
+    "veedu9-para":"Veedu #9 is an artistically designed house that fits a family of four, in the nestling busy Race Course area of Coimbatore. We programmatically arranged the needs of the family to include their day to day activities and life, blended with artistic touches.",
+
      
 
     
@@ -656,7 +685,7 @@
     "journal-mainpage-publications4-para":"We designed this house for a young couple who are busy entrepreneurs and their sons to create a beautiful house for them to grow together...",
     "journal-mainpage-thought4-para":"Materiality and tactility is crucial in evoking this multi sensorial experience in space.",
     "journal-mainpage-recognitions4-para":"Color House residence was nominated for the best use of color at the WADE ASIA festival this year.",
-    "journal-mainpage-planning1-para":"Looking at the Earth as “ancestoral” and “technology” as the future. The Earth is something we have inherited, deserving of the respect and care.",
+    "journal-mainpage-planning1-para":"Looking at the Earth as \"ancestoral\" and \"technology\" as the future. The Earth is something we have inherited, deserving of the respect and care.",
     "journal-mainpage-planning2-para":"A space has the power to evoke memories, to make someone feel safe, to be a source of inspiration. Creating a space with intention is important to us.",
     
     "journal-thought1-head-founderthought":"FOUNDERS THOUGHT",
@@ -685,14 +714,14 @@
 
         
    "journal-recognitions2-head-designperspective":"DESIGN PERSPECTIVE",
-   "journal-recognitions2-inner-head-designperspective":"DESIGN PERSPECTIVE AUGUST 2023’",
-   "journal-recognitions2-para1":"Vishwakarma Design Studio recently had the honour of being presented with the “Outstanding & Prominent Architecture & Interior Design Firm of the Year 2023 under Residential Projects & Commercial Projects and Trusted Architect & Designer of the Year 2023! We are very excited and humbled to be included in this space. Our principal architects and founders, Karthikeyan Padmanabhan and Ruckmini Karthikeyan received the prestigious award.",
+   "journal-recognitions2-inner-head-designperspective":"DESIGN PERSPECTIVE AUGUST 2023",
+   "journal-recognitions2-para1":"Vishwakarma Design Studio recently had the honour of being presented with the \"Outstanding & Prominent Architecture & Interior Design Firm of the Year 2023 under Residential Projects & Commercial Projects and Trusted Architect & Designer of the Year 2023! We are very excited and humbled to be included in this space. Our principal architects and founders, Karthikeyan Padmanabhan and Ruckmini Karthikeyan received the prestigious award.",
   
    "journal-design1-head-artist":"ARTISANAL DESIGN",
    "journal-design1-para1":"Artisanal design. We work with a lot of native artisans in our architectural and interior design. Over the past 30 years we have had the opportunity and privilege to meet incredible artists, craftsman that have shown immense skill and talent which have translated into our projects as well. ",
    "journal-design1-para2":"Why do we work with artisans? The first reason being that it resonates with the ethos of our firm. From the beginning, we believe that design and spaces are personal and should reflect a deep belonging. A belonging to the space and its users is the life force of the building or space. By infusing our designs with artisanal design, it creates belonging and context to the design.",
    "journal-design1-para3":"The next reason is to bring livelihoods to the artisans. A lot of marginalised and dwindling groups get exposure and livelihoods through the work on the projects we do. We believe in trying to source locally for environmental and social consciousness as responsible entrepreneurs and designers.",
-   "journal-design1-para4":"Finally, we’d like to conclude this by adding that India is a vast and culturally diverse country with a lot of different artistic styles and forms of art and design. We get to celebrate our cultural tapestry through our profession which brings us pride.",
+   "journal-design1-para4":"Finally, we'd like to conclude this by adding that India is a vast and culturally diverse country with a lot of different artistic styles and forms of art and design. We get to celebrate our cultural tapestry through our profession which brings us pride.",
   
         
    "journal-design3-head-turya":"TURYA",
@@ -762,7 +791,7 @@
    "journal-planning2-para3":"There is a symbiotic, intrinsic relationship between architecture and the environment. The natural environment informs the architect about the building and it allows us to shape the space around. We need to build around the environment as opposed to forcing a building into the environment. Listening to the wisdom of a place or site is what respecting the land is. Architecture that is kind to the environment is the need of the hour, and at our practice we inspire and aspire to include the natural environment as much as possible in our designs. This is the first and primary step that we take is to ensure the inclusion of the natural environment, through landscape, interior gardens and retaining the existing landscape as much as possible. This ensures the emotional and mental wellbeing and increases the oxygen levels, leading to overall wellbeing of the users.",
    "journal-planning2-para4":"Materiality. How can we be mindful of the usage of materiality in design and building? In vernacular architecture, we use local materials and the context of local climate to dictate the form and materiality to adapt to the surrounding environment. It is also sustainable in terms of ones carbon footprint by procuring materials that are local. While this cant be adhered to a 100% due to a number of external factors, as professionals we strive to use locally sourced materials when possible.",
    "journal-planning2-para5":"The essence of a building in architecture. We look at the soil, the wind patterns, the sun path to design our buildings, which inform us the openings, how the flow of spaces will be, the circulation to design luxury buildings and spaces. This also shows us the placement of spaces like bathrooms where the sunlight is high and eliminating the need for artificial lighting and ventilation whenever and wherever required. It also ensures that we can design for the needs of our clientele and that we can design sustainably.",
-   "journal-planning2-para6":"Looking at the Earth as “ancestoral” and “technology” as the future. The Earth is something we've inherited, deserving of the respect and care. The Earth, every species, flora and fauna has to be revered and when we look at it as generational wealth that is passed down. When this awareness seeps in, architecture, design and construction considerably shifts and we begin to be more mindful of the impact we have on the earth. Now, as technology keeps growing and increasingly becomes an integral part of our lives, we invite you to think how we can design with more sensitivity using this technology to pay homage to our traditions and our roots."
+   "journal-planning2-para6":"Looking at the Earth as \"ancestoral\" and \"technology\" as the future. The Earth is something we've inherited, deserving of the respect and care. The Earth, every species, flora and fauna has to be revered and when we look at it as generational wealth that is passed down. When this awareness seeps in, architecture, design and construction considerably shifts and we begin to be more mindful of the impact we have on the earth. Now, as technology keeps growing and increasingly becomes an integral part of our lives, we invite you to think how we can design with more sensitivity using this technology to pay homage to our traditions and our roots."
   
   
 }

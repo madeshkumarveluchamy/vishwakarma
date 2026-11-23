@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { galleryItems } from '../../Gallery';
 import './Lighthouse.css';
 import NavBar from '../../../Navbar/Navbar';
 import light1 from '../DetailProjectpageImages/lighthouse1.webp';
@@ -21,7 +20,6 @@ import Carousel from 'react-bootstrap/Carousel';
 const Lighthouse = () => {
   const { t} = useTranslation('global');
     const { id } = useParams();
-    const project = galleryItems.find(item => item.id === parseInt(id, 10));
     
     useEffect(() => {
       window.scrollTo(0, 0);

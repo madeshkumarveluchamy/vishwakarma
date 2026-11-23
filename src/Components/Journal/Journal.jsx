@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 import NavBar from '../Navbar/Navbar'
 import "./Journal.css";
 import thoughts1 from './Thoughts/images/thoughts1.webp'
-import thoughts3 from './Thoughts/images/thoughts2.webp'
 import recognitions2 from './Recognitions/Images/Recognitions2.webp'
-import recognitions3 from './Recognitions/Images/Recognitions3.webp'
 import turyalogo from './journalimages/Turya-logo.png'
 import award1 from './journalimages/award.jpg'
 import summerhouse from './journalimages/k (19).jpg'
